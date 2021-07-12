@@ -1,0 +1,12 @@
+
+
+.djn-dynamic-form-payment-supplierpaymenttransaction {
+    border: 1px solid black !important;
+    margin-bottom: 15px !important;
+}
+.djn-dynamic-form-payment-supplierpaymenttransaction h3 {
+    background-color: rgba(19, 22, 243, 0.219) !important;
+    border-bottom: ridge 1px rgba(0, 0, 0, 0.445);
+    color: darkslateblue;
+}
+

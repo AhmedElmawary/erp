@@ -1,0 +1,63 @@
+version: "3.6"
+services:
+
+  db:
+    image: postgres:alpine
+    container_name: db
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=smu
+      - POSTGRES_USER=default
+      - POSTGRES_PASSWORD=secret
+    volumes:
+      - ./databases:/var/lib/postgresql/data
+
+  gateway:
+    image: reymonzakhary/nginx-php74:v1
+    container_name: gateway
+    hostname: gateway
+    restart: unless-stopped
+    ports:
+      - 81:80
+    volumes:
+      - ./gateway:/var/www:cached
+    tty: true
+    working_dir: /var/www
+    networks:
+      - backend
+      - frontend
+
+  app:
+    build: .
+    command: npm install
+    command: npm run build
+    command: python manage.py runserver 0.0.0.0:8080
+    env_file: 
+      - ./app/.env
+    volumes: 
+      - "./:/app"
+      - content:/usr/local/lib/python3.9/site-packages/django/contrib:ro
+      - auth:/usr/local/lib/python3.9/site-packages/django/contrib/auth:ro
+    ports: 
+        - "80:8080"
+    depends_on: 
+      - db
+
+volumes:
+    databases:
+    node_modules:
+    redis-data:
+    mongodbdata:
+        driver: local
+    appdata:
+        driver: local
+    content:
+    auth:
+
+networks:
+    frontend:
+        driver: bridge
+    backend:
+        driver: bridge

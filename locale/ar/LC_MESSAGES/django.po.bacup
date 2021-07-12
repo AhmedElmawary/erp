@@ -1,0 +1,2749 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@AddRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-28 17:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@AddRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: _helpers/admin.py:98
+msgid "Transactions"
+msgstr "العمليات"
+
+#: _helpers/admin.py:145 app_user/translation.py:11 app_user/translation.py:25
+#: area/models.py:5 client/admin.py:48 client/admin.py:64 client/admin.py:105
+#: client/admin.py:491 client/models.py:19 item/models.py:17
+#: supplier/admin.py:48 supplier/admin.py:90 supplier/admin.py:305
+#: supplier/models.py:15 supplier/models.py:115
+msgid "name"
+msgstr "اﻻسم"
+
+#: _helpers/admin.py:146
+msgid "registered at"
+msgstr "وقت التسجيل"
+
+#: _helpers/admin.py:147
+msgid "invoice no"
+msgstr "الفاتوره"
+
+#: _helpers/admin.py:148
+msgid "invoice type"
+msgstr "نوع الفاتوره"
+
+#: _helpers/admin.py:149 client/admin.py:195 payment/admin.py:159
+#: payment/admin.py:185 payment/admin.py:400 payment/admin.py:513
+#: payment/admin.py:668 payment/models.py:63 payment/models.py:73
+#: supplier/admin.py:359
+msgid "amount"
+msgstr "المبلغ"
+
+#: _helpers/admin.py:150 payment/admin.py:668
+msgid "currency"
+msgstr "العمله"
+
+#: _helpers/admin.py:151 _helpers/admin.py:211 client/admin.py:196
+#: payment/admin.py:186 payment/admin.py:401 payment/admin.py:514
+#: payment/admin.py:667 supplier/admin.py:360
+msgid "description"
+msgstr "الوصـــف"
+
+#: _helpers/admin.py:152 _helpers/admin.py:211 payment/admin.py:668
+msgid "issued at"
+msgstr "وقت اﻻصدار"
+
+#: _helpers/admin.py:211 app_user/admin.py:175 client/admin.py:63
+#: client/admin.py:104 client/admin.py:197 client/admin.py:270
+#: client/admin.py:490 payment/admin.py:187 payment/admin.py:402
+#: payment/admin.py:515 payment/admin.py:667 supplier/admin.py:47
+#: supplier/admin.py:89 supplier/admin.py:210 supplier/admin.py:304
+#: supplier/admin.py:361
+msgid "id"
+msgstr "رقم"
+
+#: _helpers/admin.py:211 payment/models.py:84
+msgid "transaction amount"
+msgstr "تكلفه العمليه"
+
+#: _helpers/admin.py:211
+msgid "transaction detail"
+msgstr "تفاصيل العمليه"
+
+#: _helpers/admin.py:211 _helpers/admin.py:336 _helpers/admin.py:577
+#: _helpers/admin.py:818 payment/admin.py:326 payment/admin.py:615
+msgid "transaction type"
+msgstr "نوع العمليه"
+
+#: _helpers/admin.py:211 client/admin.py:85 client/admin.py:126
+#: client/admin.py:339 client/admin.py:354 client/models.py:95
+#: payment/admin.py:270 payment/admin.py:558 supplier/admin.py:69
+#: supplier/admin.py:111 supplier/admin.py:419 supplier/admin.py:434
+#: supplier/models.py:78
+msgid "credit"
+msgstr "مدين"
+
+#: _helpers/admin.py:211 client/admin.py:84 client/admin.py:125
+#: client/admin.py:339 client/admin.py:353 client/models.py:96
+#: supplier/admin.py:68 supplier/admin.py:110 supplier/admin.py:419
+#: supplier/admin.py:433 supplier/models.py:79
+msgid "debit"
+msgstr "دائن"
+
+#: _helpers/admin.py:211
+msgid "balance"
+msgstr "الرصيد"
+
+#: _helpers/admin.py:227
+msgid "Blanace"
+msgstr "الرصيد"
+
+#: _helpers/admin.py:228 _helpers/admin.py:320 _helpers/admin.py:561
+#: _helpers/admin.py:834 _helpers/models.py:302 client/models.py:90
+#: client/models.py:103 payment/admin.py:342 payment/admin.py:631
+#: supplier/models.py:73 supplier/models.py:86
+msgid "Credit"
+msgstr "مدين"
+
+#: _helpers/admin.py:229 _helpers/admin.py:316 _helpers/admin.py:557
+#: _helpers/admin.py:830 _helpers/models.py:301 client/models.py:80
+#: client/models.py:85 payment/admin.py:338 payment/admin.py:627
+#: supplier/models.py:65 supplier/models.py:69
+msgid "Debit"
+msgstr "دائن"
+
+#: _helpers/admin.py:230 payment/models.py:20 payment/models.py:67
+msgid "Issued at"
+msgstr "وقت اﻻصدار"
+
+#: _helpers/admin.py:231
+msgid "Id"
+msgstr "رقم المستند"
+
+#: _helpers/admin.py:232 _helpers/admin.py:324 _helpers/admin.py:565
+#: _helpers/admin.py:822 client/admin.py:272 payment/admin.py:330
+#: payment/admin.py:619 payment/models.py:62 supplier/admin.py:212
+msgid "Description"
+msgstr "الوصـــف"
+
+#: _helpers/admin.py:237
+msgid "the centeral branch"
+msgstr "الفرع الرئيسي"
+
+#: _helpers/admin.py:239
+msgid "account statment for supplier : "
+msgstr "كشف حساب للمورد:"
+
+#: _helpers/admin.py:240 client/admin.py:267 client/admin.py:366
+#: client/admin.py:393 supplier/admin.py:172 supplier/admin.py:208
+#: supplier/admin.py:446
+msgid "from"
+msgstr "من"
+
+#: _helpers/admin.py:241 client/admin.py:268 client/admin.py:367
+#: client/admin.py:392 supplier/admin.py:171 supplier/admin.py:208
+#: supplier/admin.py:447
+msgid "to"
+msgstr "الى"
+
+#: _helpers/admin.py:242
+msgid "net cost"
+msgstr "اﻻجمـــالـي"
+
+#: _helpers/admin.py:328 _helpers/admin.py:569
+msgid "transaction date"
+msgstr "تاريخ العملية"
+
+#: _helpers/admin.py:332 _helpers/admin.py:495 _helpers/admin.py:768
+#: _helpers/admin.py:826 payment/admin.py:188 payment/admin.py:403
+#: supplier/admin.py:362
+msgid "supplier"
+msgstr "المورد"
+
+#: _helpers/admin.py:344 _helpers/admin.py:585
+msgid "transaction no"
+msgstr "رقم العملية"
+
+#: _helpers/admin.py:377 _helpers/admin.py:620
+msgid "account statments to "
+msgstr "كشف حساب"
+
+#: _helpers/admin.py:378 _helpers/admin.py:621 _helpers/admin.py:861
+#: payment/admin.py:350 payment/admin.py:641
+msgid "closthes shop el wensh"
+msgstr "الونش للملابس الجاهزة"
+
+#: _helpers/admin.py:381 _helpers/admin.py:624 _helpers/admin.py:863
+#: payment/admin.py:352 payment/admin.py:643
+msgid "Main brnach"
+msgstr " الفرع الرئيسي"
+
+#: _helpers/admin.py:382 _helpers/admin.py:625
+msgid "shubra st"
+msgstr "شارع الترعة - شبرا"
+
+#: _helpers/admin.py:383 _helpers/admin.py:626 _helpers/admin.py:864
+#: payment/admin.py:353 payment/admin.py:644
+msgid "transactions which have been done till"
+msgstr "العمليات التي تمت حتى تاريخ "
+
+#: _helpers/admin.py:387 _helpers/admin.py:630 _helpers/admin.py:868
+#: payment/admin.py:357 payment/admin.py:648
+msgid "accountant"
+msgstr "المحاسب"
+
+#: _helpers/admin.py:388 _helpers/admin.py:631 _helpers/admin.py:869
+#: payment/admin.py:358 payment/admin.py:649
+msgid "authorize"
+msgstr "التوقيع"
+
+#: _helpers/admin.py:389 _helpers/admin.py:632 _helpers/admin.py:867
+#: payment/admin.py:356 payment/admin.py:647
+msgid "reciver"
+msgstr "المستلم"
+
+#: _helpers/admin.py:391 _helpers/admin.py:634 _helpers/admin.py:871
+#: payment/admin.py:361 payment/admin.py:651
+msgid "total"
+msgstr "اﻻجمـــالـي"
+
+#: _helpers/admin.py:495 _helpers/admin.py:767 _helpers/admin.py:814
+#: payment/admin.py:322 payment/admin.py:611 supplier/admin.py:465
+msgid "ID"
+msgstr "رقم"
+
+#: _helpers/admin.py:495 _helpers/admin.py:769 client/admin.py:273
+#: supplier/admin.py:213
+msgid "AMOUNT"
+msgstr "التكلفه"
+
+#: _helpers/admin.py:495 supplier/admin.py:466
+msgid "PAYMENT TYPE"
+msgstr "طريقه الدفع"
+
+#: _helpers/admin.py:495 client/admin.py:276 supplier/admin.py:216
+#: supplier/admin.py:466
+msgid "TRANSACTION TYPE"
+msgstr "نوع العمليه"
+
+#: _helpers/admin.py:495 _helpers/admin.py:772 client/admin.py:275
+#: supplier/admin.py:215 supplier/admin.py:466
+msgid "ISSUED AT"
+msgstr "وقت اﻻصدار"
+
+#: _helpers/admin.py:573 _helpers/admin.py:826 client/admin.py:198
+#: payment/admin.py:516 payment/admin.py:623
+msgid "client"
+msgstr "العميل"
+
+#: _helpers/admin.py:770 supplier/admin.py:465
+msgid "DESCRIPTION"
+msgstr "الوصــــــف"
+
+#: _helpers/admin.py:771
+msgid "TYPE"
+msgstr "النوع"
+
+#: _helpers/admin.py:860 payment/admin.py:349 payment/admin.py:640
+msgid "daily transactions for"
+msgstr " العمليات اليوميه"
+
+#: _helpers/models.py:36
+msgid "Afghanistan"
+msgstr "أفغانستان"
+
+#: _helpers/models.py:37
+msgid "Åland Islands"
+msgstr "جزر آلاند"
+
+#: _helpers/models.py:38
+msgid "Albania"
+msgstr "ألبانيا"
+
+#: _helpers/models.py:39
+msgid "Algeria"
+msgstr "الجزائر"
+
+#: _helpers/models.py:40
+msgid "American Samoa"
+msgstr "ساموا الأمريكية"
+
+#: _helpers/models.py:41
+msgid "AndorrA"
+msgstr "أندورا"
+
+#: _helpers/models.py:42
+msgid "Angola"
+msgstr "أنغولا"
+
+#: _helpers/models.py:43
+msgid "Anguilla"
+msgstr "أنغيلا"
+
+#: _helpers/models.py:44
+msgid "Antarctica"
+msgstr "أنتاركتيكا"
+
+#: _helpers/models.py:45
+msgid "Antigua and Barbuda"
+msgstr "أنتيغوا وبربودا"
+
+#: _helpers/models.py:46
+msgid "Argentina"
+msgstr "الأرجنتين"
+
+#: _helpers/models.py:47
+msgid "Armenia"
+msgstr "أرمينيا"
+
+#: _helpers/models.py:48
+msgid "Aruba"
+msgstr "أروبا"
+
+#: _helpers/models.py:49
+msgid "Australia"
+msgstr "أستراليا"
+
+#: _helpers/models.py:50
+msgid "Austria"
+msgstr "النمسا"
+
+#: _helpers/models.py:51
+msgid "Azerbaijan"
+msgstr "أذربيجان"
+
+#: _helpers/models.py:52
+msgid "Bahamas"
+msgstr "جزر البهاما"
+
+#: _helpers/models.py:53
+msgid "Bahrain"
+msgstr "البحرين"
+
+#: _helpers/models.py:54
+msgid "Bangladesh"
+msgstr "بنغلاديش"
+
+#: _helpers/models.py:55
+msgid "Barbados"
+msgstr "بربادوس"
+
+#: _helpers/models.py:56
+msgid "Belarus"
+msgstr "بيلاروسيا"
+
+#: _helpers/models.py:57
+msgid "Belgium"
+msgstr "بلجيكا"
+
+#: _helpers/models.py:58
+msgid "Belize"
+msgstr "بليز"
+
+#: _helpers/models.py:59
+msgid "Benin"
+msgstr "بنين"
+
+#: _helpers/models.py:60
+msgid "Bermuda"
+msgstr "برمودا"
+
+#: _helpers/models.py:61
+msgid "Bhutan"
+msgstr "بوتان"
+
+#: _helpers/models.py:62
+msgid "Bolivia"
+msgstr "بوليفيا"
+
+#: _helpers/models.py:63
+msgid "Bosnia and Herzegovina"
+msgstr "البوسنة والهرسك"
+
+#: _helpers/models.py:64
+msgid "Botswana"
+msgstr "بوتسوانا"
+
+#: _helpers/models.py:65
+msgid "Bouvet Island"
+msgstr "جزيرة بوفيت"
+
+#: _helpers/models.py:66
+msgid "Brazil"
+msgstr "البرازيل"
+
+#: _helpers/models.py:67
+msgid "British Indian Ocean Territory"
+msgstr "إقليم المحيط البريطاني الهندي"
+
+#: _helpers/models.py:68
+msgid "Brunei Darussalam"
+msgstr "بروناي دار السلام"
+
+#: _helpers/models.py:69
+msgid "Bulgaria"
+msgstr "بلغاريا"
+
+#: _helpers/models.py:70
+msgid "Burkina Faso"
+msgstr "بوركينا فاسو"
+
+#: _helpers/models.py:71
+msgid "Burundi"
+msgstr "بوروندي"
+
+#: _helpers/models.py:72
+msgid "Cambodia"
+msgstr "كمبوديا"
+
+#: _helpers/models.py:73
+msgid "Cameroon"
+msgstr "الكاميرون"
+
+#: _helpers/models.py:74
+msgid "Canada"
+msgstr "كندا"
+
+#: _helpers/models.py:75
+msgid "Cape Verde"
+msgstr "الرأس الأخضر"
+
+#: _helpers/models.py:76
+msgid "Cayman Islands"
+msgstr "جزر كايمان"
+
+#: _helpers/models.py:77
+msgid "Central African Republic"
+msgstr "جمهورية افريقيا الوسطى"
+
+#: _helpers/models.py:78
+msgid "Chad"
+msgstr "تشاد"
+
+#: _helpers/models.py:79
+msgid "Chile"
+msgstr "تشيلي"
+
+#: _helpers/models.py:80
+msgid "China"
+msgstr "الصين"
+
+#: _helpers/models.py:81
+msgid "Christmas Island"
+msgstr "جزيرة الكريسماس"
+
+#: _helpers/models.py:82
+msgid "Cocos (Keeling) Islands"
+msgstr "جزر كوكوس (كيلينغ)"
+
+#: _helpers/models.py:83
+msgid "Colombia"
+msgstr "كولومبيا"
+
+#: _helpers/models.py:84
+msgid "Comoros"
+msgstr "جزر القمر"
+
+#: _helpers/models.py:85
+msgid "Congo"
+msgstr "الكونغو"
+
+#: _helpers/models.py:86
+msgid "Congo, The Democratic Republic of the"
+msgstr "جمهورية الكونغو الديمقراطية"
+
+#: _helpers/models.py:87
+msgid "Cook Islands"
+msgstr "جزر كوك"
+
+#: _helpers/models.py:88
+msgid "Costa Rica"
+msgstr "كوستاريكا"
+
+#: _helpers/models.py:89
+msgid "Cote D'Ivoire"
+msgstr "ساحل العاج"
+
+#: _helpers/models.py:90
+msgid "Croatia"
+msgstr "كرواتيا"
+
+#: _helpers/models.py:91
+msgid "Cuba"
+msgstr "كوبا"
+
+#: _helpers/models.py:92
+msgid "Cyprus"
+msgstr "قبرص"
+
+#: _helpers/models.py:93
+msgid "Czech Republic"
+msgstr "الجمهورية التشيكية"
+
+#: _helpers/models.py:94
+msgid "Denmark"
+msgstr "الدنمارك"
+
+#: _helpers/models.py:95
+msgid "Djibouti"
+msgstr "جيبوتي"
+
+#: _helpers/models.py:96
+msgid "Dominica"
+msgstr "دومينيكا"
+
+#: _helpers/models.py:97
+msgid "Dominican Republic"
+msgstr "جمهورية الدومينيكان"
+
+#: _helpers/models.py:98
+msgid "Ecuador"
+msgstr "الاكوادور"
+
+#: _helpers/models.py:99
+msgid "Egypt"
+msgstr "مصر"
+
+#: _helpers/models.py:100
+msgid "El Salvador"
+msgstr "المنقذ"
+
+#: _helpers/models.py:101
+msgid "Equatorial Guinea"
+msgstr "غينيا الإستوائية"
+
+#: _helpers/models.py:103
+msgid "Estonia"
+msgstr "إستونيا"
+
+#: _helpers/models.py:104
+msgid "Ethiopia"
+msgstr "أثيوبيا"
+
+#: _helpers/models.py:105
+msgid "Falkland Islands (Malvinas)"
+msgstr "جزر فوكلاند (مالفيناس)"
+
+#: _helpers/models.py:106
+msgid "Faroe Islands"
+msgstr "جزر فاروس"
+
+#: _helpers/models.py:107
+msgid "Fiji"
+msgstr "فيجي"
+
+#: _helpers/models.py:109
+msgid "France"
+msgstr "فرنسا"
+
+#: _helpers/models.py:110
+msgid "French Guiana"
+msgstr "غيانا الفرنسية"
+
+#: _helpers/models.py:111
+msgid "French Polynesia"
+msgstr "بولينيزيا الفرنسية"
+
+#: _helpers/models.py:112
+msgid "French Southern Territories"
+msgstr "المناطق الجنوبية لفرنسا"
+
+#: _helpers/models.py:113
+msgid "Gabon"
+msgstr "الجابون"
+
+#: _helpers/models.py:114
+msgid "Gambia"
+msgstr "غامبيا"
+
+#: _helpers/models.py:115
+msgid "Georgia"
+msgstr "جورجيا"
+
+#: _helpers/models.py:116
+msgid "Germany"
+msgstr "المانيا"
+
+#: _helpers/models.py:118
+msgid "Gibraltar"
+msgstr "جبل طارق"
+
+#: _helpers/models.py:119
+msgid "Greece"
+msgstr "اليونان"
+
+#: _helpers/models.py:120
+msgid "Greenland"
+msgstr "جرينلاند"
+
+#: _helpers/models.py:121
+msgid "Grenada"
+msgstr "غرينادا"
+
+#: _helpers/models.py:122
+msgid "Guadeloupe"
+msgstr "جوادلوب"
+
+#: _helpers/models.py:123
+msgid "Guam"
+msgstr "غوام"
+
+#: _helpers/models.py:124
+msgid "Guatemala"
+msgstr "غواتيمالا"
+
+#: _helpers/models.py:125
+msgid "Guernsey"
+msgstr "غيرنسي"
+
+#: _helpers/models.py:126
+msgid "Guinea"
+msgstr "غينيا"
+
+#: _helpers/models.py:127
+msgid "Guinea-Bissau"
+msgstr "غينيا بيساو"
+
+#: _helpers/models.py:128
+msgid "Guyana"
+msgstr "غيانا"
+
+#: _helpers/models.py:129
+msgid "Haiti"
+msgstr "هايتي"
+
+#: _helpers/models.py:130
+msgid "Heard Island and Mcdonald Islands"
+msgstr "جزيرة هيرد وجزر ماكدونالد"
+
+#: _helpers/models.py:131
+msgid "Holy See (Vatican City State)"
+msgstr "دولة الفاتيكان"
+
+#: _helpers/models.py:132
+msgid "Honduras"
+msgstr "هندوراس"
+
+#: _helpers/models.py:133
+msgid "Hong Kong"
+msgstr "هونج كونج"
+
+#: _helpers/models.py:134
+msgid "Hungary"
+msgstr "هنغاريا"
+
+#: _helpers/models.py:135
+msgid "Iceland"
+msgstr "أيسلندا"
+
+#: _helpers/models.py:136
+msgid "India"
+msgstr "الهند"
+
+#: _helpers/models.py:137
+msgid "Indonesia"
+msgstr "اندونسيا"
+
+#: _helpers/models.py:138
+msgid "Iran, Islamic Republic Of"
+msgstr "جمهورية إيران الإسلامية"
+
+#: _helpers/models.py:139
+msgid "Iraq"
+msgstr "العراق"
+
+#: _helpers/models.py:140
+msgid "Ireland"
+msgstr "أيرلندا"
+
+#: _helpers/models.py:142
+msgid "Israel"
+msgstr "فلسطين"
+
+#: _helpers/models.py:143
+msgid "Italy"
+msgstr "أيطاليا"
+
+#: _helpers/models.py:144
+msgid "Jamaica"
+msgstr "جامايكا"
+
+#: _helpers/models.py:145
+msgid "Japan"
+msgstr "اليابان"
+
+#: _helpers/models.py:146
+msgid "Jersey"
+msgstr "جيرسي"
+
+#: _helpers/models.py:147
+msgid "Jordan"
+msgstr "الاردن"
+
+#: _helpers/models.py:148
+msgid "Kazakhstan"
+msgstr "كازاخستان"
+
+#: _helpers/models.py:149
+msgid "Kenya"
+msgstr "كينيا"
+
+#: _helpers/models.py:151
+msgid "Korea, Democratic People'S Republic of"
+msgstr "كوريا، الجمهورية الشعبية الديمقراطية"
+
+#: _helpers/models.py:152
+msgid "Korea, Republic of"
+msgstr "جمهورية كوريا"
+
+#: _helpers/models.py:153
+msgid "Kuwait"
+msgstr "الكويت"
+
+#: _helpers/models.py:154
+msgid "Kyrgyzstan"
+msgstr "قيرغيزستان"
+
+#: _helpers/models.py:155
+msgid "Lao People'S Democratic Republic"
+msgstr "جمهورية لاو الديمقراطية الشعبية"
+
+#: _helpers/models.py:156
+msgid "Latvia"
+msgstr "لاتفيا"
+
+#: _helpers/models.py:157
+msgid "Lebanon"
+msgstr "لبنان"
+
+#: _helpers/models.py:159
+msgid "Liberia"
+msgstr "ليبريا"
+
+#: _helpers/models.py:160
+msgid "Libyan Arab Jamahiriya"
+msgstr "الجماهيرية العربية الليبية"
+
+#: _helpers/models.py:161
+msgid "Liechtenstein"
+msgstr "ليختنشتاين"
+
+#: _helpers/models.py:162
+msgid "Lithuania"
+msgstr "ليتوانيا"
+
+#: _helpers/models.py:163
+msgid "Luxembourg"
+msgstr "لوكسمبورغ"
+
+#: _helpers/models.py:164
+msgid "Macao"
+msgstr "ماكاو"
+
+#: _helpers/models.py:165
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "مقدونيا ، جمهورية يوغوسلافيا السابقة"
+
+#: _helpers/models.py:166
+msgid "Madagascar"
+msgstr "مدغشقر"
+
+#: _helpers/models.py:167
+msgid "Malawi"
+msgstr "ملاوي"
+
+#: _helpers/models.py:168
+msgid "Malaysia"
+msgstr "ماليزيا"
+
+#: _helpers/models.py:169
+msgid "Maldives"
+msgstr "جزر المالديف"
+
+#: _helpers/models.py:170
+msgid "Mali"
+msgstr "مالي"
+
+#: _helpers/models.py:171
+msgid "Malta"
+msgstr "مالطا"
+
+#: _helpers/models.py:172
+msgid "Marshall Islands"
+msgstr "جزر مارشال"
+
+#: _helpers/models.py:173
+msgid "Martinique"
+msgstr "مارتينيك"
+
+#: _helpers/models.py:174
+msgid "Mauritania"
+msgstr "موريتانيا"
+
+#: _helpers/models.py:175
+msgid "Mauritius"
+msgstr "موريشيوس"
+
+#: _helpers/models.py:176
+msgid "Mayotte"
+msgstr "مايوت"
+
+#: _helpers/models.py:177
+msgid "Mexico"
+msgstr "المكسيك"
+
+#: _helpers/models.py:178
+msgid "Micronesia, Federated States of"
+msgstr "ولايات ميكرونيزيا الموحدة"
+
+#: _helpers/models.py:179
+msgid "Moldova, Republic of"
+msgstr "جمهورية مولدوفا"
+
+#: _helpers/models.py:180
+msgid "Monaco"
+msgstr "موناكو"
+
+#: _helpers/models.py:181
+msgid "Mongolia"
+msgstr "منغوليا"
+
+#: _helpers/models.py:182
+msgid "Montserrat"
+msgstr "مونتسيرات"
+
+#: _helpers/models.py:183
+msgid "Morocco"
+msgstr "المغرب"
+
+#: _helpers/models.py:184
+msgid "Mozambique"
+msgstr "موزامبيق"
+
+#: _helpers/models.py:185
+msgid "Myanmar"
+msgstr "مينامار"
+
+#: _helpers/models.py:186
+msgid "Namibia"
+msgstr "نامبيا"
+
+#: _helpers/models.py:187
+msgid "Nauru"
+msgstr "ناورو"
+
+#: _helpers/models.py:188
+msgid "Nepal"
+msgstr "نيبال"
+
+#: _helpers/models.py:189
+msgid "Netherlands"
+msgstr "هولندا"
+
+#: _helpers/models.py:190
+msgid "Netherlands Antilles"
+msgstr "جزر الأنتيل الهولندية"
+
+#: _helpers/models.py:191
+msgid "New Caledonia"
+msgstr "كاليدونيا الجديدة"
+
+#: _helpers/models.py:192
+msgid "New Zealand"
+msgstr "نيوزيلاندا"
+
+#: _helpers/models.py:193
+msgid "Nicaragua"
+msgstr "نيكاراغوا"
+
+#: _helpers/models.py:194
+msgid "Niger"
+msgstr "النيجر"
+
+#: _helpers/models.py:195
+msgid "Nigeria"
+msgstr "نيجيريا"
+
+#: _helpers/models.py:196
+msgid "Niue"
+msgstr "نيوي"
+
+#: _helpers/models.py:197
+msgid "Norfolk Island"
+msgstr "جزيرة نورفولك"
+
+#: _helpers/models.py:198
+msgid "Northern Mariana Islands"
+msgstr "جزر مريانا الشمالية"
+
+#: _helpers/models.py:199
+msgid "Norway"
+msgstr "النرويج"
+
+#: _helpers/models.py:200
+msgid "Oman"
+msgstr "عمان"
+
+#: _helpers/models.py:201
+msgid "Pakistan"
+msgstr "باكيستان"
+
+#: _helpers/models.py:202
+msgid "Palau"
+msgstr "بالاو"
+
+#: _helpers/models.py:203
+msgid "Palestinian Territory, Occupied"
+msgstr "الاراضي الفلسطينيه المحتلة"
+
+#: _helpers/models.py:204
+msgid "Panama"
+msgstr "بانما"
+
+#: _helpers/models.py:205
+msgid "Papua New Guinea"
+msgstr "بابوا غينيا الجديدة"
+
+#: _helpers/models.py:206
+msgid "Paraguay"
+msgstr "باراغواي"
+
+#: _helpers/models.py:207
+msgid "Peru"
+msgstr "بيرو"
+
+#: _helpers/models.py:208
+msgid "Philippines"
+msgstr "الفليبين"
+
+#: _helpers/models.py:209
+msgid "Pitcairn"
+msgstr "بيتكيرن"
+
+#: _helpers/models.py:210
+msgid "Poland"
+msgstr "بولندا"
+
+#: _helpers/models.py:211
+msgid "Portugal"
+msgstr "البرتغال"
+
+#: _helpers/models.py:212
+msgid "Puerto Rico"
+msgstr "بورتوريكو"
+
+#: _helpers/models.py:213
+msgid "Qatar"
+msgstr "قطر"
+
+#: _helpers/models.py:214
+msgid "Reunion"
+msgstr "رييونيون"
+
+#: _helpers/models.py:215
+msgid "Romania"
+msgstr "رومانيا"
+
+#: _helpers/models.py:216
+msgid "Russian Federation"
+msgstr "روسيا"
+
+#: _helpers/models.py:217
+msgid "RWANDA"
+msgstr "رواندا"
+
+#: _helpers/models.py:218
+msgid "Saint Helena"
+msgstr "سانت هيلانة"
+
+#: _helpers/models.py:219
+msgid "Saint Kitts and Nevis"
+msgstr "سانت كيتس ونيفيس"
+
+#: _helpers/models.py:220
+msgid "Saint Lucia"
+msgstr "يانت لوسيا"
+
+#: _helpers/models.py:221
+msgid "Saint Pierre and Miquelon"
+msgstr "سانت بيير وميكلون"
+
+#: _helpers/models.py:222
+msgid "Saint Vincent and the Grenadines"
+msgstr "سانت فنسنت وجزر غرينادين"
+
+#: _helpers/models.py:223
+msgid "Samoa"
+msgstr "ساموا"
+
+#: _helpers/models.py:224
+msgid "San Marino"
+msgstr "سان مارينو"
+
+#: _helpers/models.py:225
+msgid "Sao Tome and Principe"
+msgstr "ساو تومي وبرينسيبي"
+
+#: _helpers/models.py:226
+msgid "Saudi Arabia"
+msgstr "المملكة العربيه السعودية"
+
+#: _helpers/models.py:227
+msgid "Senegal"
+msgstr "السينغال"
+
+#: _helpers/models.py:228
+msgid "Serbia and Montenegro"
+msgstr "صربيا والجبل الأسود"
+
+#: _helpers/models.py:229
+msgid "Seychelles"
+msgstr "سيشيل"
+
+#: _helpers/models.py:230
+msgid "Sierra Leone"
+msgstr "سيرا ليون"
+
+#: _helpers/models.py:231
+msgid "Singapore"
+msgstr "سينغافورة"
+
+#: _helpers/models.py:232
+msgid "Slovakia"
+msgstr "سولفاكيا"
+
+#: _helpers/models.py:233
+msgid "Slovenia"
+msgstr "سلوفينيا"
+
+#: _helpers/models.py:234
+msgid "Solomon Islands"
+msgstr "جزر سليمان"
+
+#: _helpers/models.py:235
+msgid "Somalia"
+msgstr "الصومال"
+
+#: _helpers/models.py:236
+msgid "South Africa"
+msgstr "جنوب افريقيا"
+
+#: _helpers/models.py:237
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "جورجيا الجنوبية وجزر ساندويتش الجنوبية"
+
+#: _helpers/models.py:238
+msgid "Spain"
+msgstr "إسبانيا"
+
+#: _helpers/models.py:239
+msgid "Sri Lanka"
+msgstr "سيرلانكا"
+
+#: _helpers/models.py:240
+msgid "Sudan"
+msgstr "السودان"
+
+#: _helpers/models.py:241
+msgid "Suri'name"
+msgstr "سورينام"
+
+#: _helpers/models.py:242
+msgid "Svalbard and Jan Mayen"
+msgstr "سفالبارد وجان ماين"
+
+#: _helpers/models.py:243
+msgid "Swaziland"
+msgstr "سوازيلاند"
+
+#: _helpers/models.py:244
+msgid "Sweden"
+msgstr "السويد"
+
+#: _helpers/models.py:245
+msgid "Switzerland"
+msgstr "سويسرا"
+
+#: _helpers/models.py:246
+msgid "Syrian Arab Republic"
+msgstr "الجمهوريه العربيه السوريه"
+
+#: _helpers/models.py:247
+msgid "Taiwan, Province of China"
+msgstr "مقاطعة تايوان الصينية"
+
+#: _helpers/models.py:248
+msgid "Tajikistan"
+msgstr "طاجيكستان"
+
+#: _helpers/models.py:249
+msgid "Tanzania, United Republic of"
+msgstr "جمهورية تنزانيا المتحدة"
+
+#: _helpers/models.py:250
+msgid "Thailand"
+msgstr "تايلاند "
+
+#: _helpers/models.py:251
+msgid "Timor-Leste"
+msgstr "تيمور ليشتي "
+
+#: _helpers/models.py:253
+msgid "Tokelau"
+msgstr "توكيلاو "
+
+#: _helpers/models.py:254
+msgid "Tonga"
+msgstr "تونغا "
+
+#: _helpers/models.py:255
+msgid "Trinidad and Tobago"
+msgstr "ترينداد وتوباغو"
+
+#: _helpers/models.py:256
+msgid "Tunisia"
+msgstr "تونس"
+
+#: _helpers/models.py:257
+msgid "Turkey"
+msgstr "تركيا"
+
+#: _helpers/models.py:258
+msgid "Turkmenistan"
+msgstr "تركمانستان"
+
+#: _helpers/models.py:259
+msgid "Turks and Caicos Islands"
+msgstr "جزر تركس وكايكوس"
+
+#: _helpers/models.py:260
+msgid "Tuvalu"
+msgstr "توفالو"
+
+#: _helpers/models.py:261
+msgid "Uganda"
+msgstr "أوغندا"
+
+#: _helpers/models.py:262
+msgid "Ukraine"
+msgstr "أوكرانيا"
+
+#: _helpers/models.py:263
+msgid "United Arab Emirates"
+msgstr "الإمارات العربية المتحدة"
+
+#: _helpers/models.py:264
+msgid "United Kingdom"
+msgstr "المملكة المتحدة"
+
+#: _helpers/models.py:265
+msgid "United States"
+msgstr "الولايات المتحدة الأمريكية"
+
+#: _helpers/models.py:266
+msgid "United States Minor Outlying Islands"
+msgstr "جزر الولايات المتحدة البعيدة الصغرى"
+
+#: _helpers/models.py:267
+msgid "Uruguay"
+msgstr "أوروغواي"
+
+#: _helpers/models.py:268
+msgid "Uzbekistan"
+msgstr "أوزبكستان"
+
+#: _helpers/models.py:269
+msgid "Vanuatu"
+msgstr "فانواتو"
+
+#: _helpers/models.py:270
+msgid "Venezuela"
+msgstr "فنزويلا"
+
+#: _helpers/models.py:271
+msgid "Viet Nam"
+msgstr "فييت نام"
+
+#: _helpers/models.py:272
+msgid "Virgin Islands, British"
+msgstr "جزر العذراء البريطانية"
+
+#: _helpers/models.py:273
+msgid "Virgin Islands, U.S."
+msgstr "جزر فيرجن الأمريكية"
+
+#: _helpers/models.py:274
+msgid "Wallis and Futuna"
+msgstr "واليس وفوتونا"
+
+#: _helpers/models.py:275
+msgid "Western Sahara"
+msgstr "الصحراء الغربية"
+
+#: _helpers/models.py:276
+msgid "Yemen"
+msgstr "اليمن"
+
+#: _helpers/models.py:277
+msgid "Zambia"
+msgstr "زامبيا"
+
+#: _helpers/models.py:282
+msgid "Fixed"
+msgstr "قيمه ثابته"
+
+#: _helpers/models.py:283
+msgid "Precentage"
+msgstr "نسبه مئويه"
+
+#: _helpers/models.py:287
+msgid "Male"
+msgstr "ذكر"
+
+#: _helpers/models.py:288
+msgid "Female"
+msgstr "انثي"
+
+#: _helpers/models.py:292 payment/models.py:72
+msgid "egp"
+msgstr "جنيه مصري"
+
+#: _helpers/models.py:296 app_user/models.py:193 client/admin.py:87
+#: supplier/admin.py:71
+msgid "cash"
+msgstr "كاش"
+
+#: _helpers/models.py:297
+msgid "installments"
+msgstr "اجل"
+
+#: _helpers/models.py:306
+msgid "Sales"
+msgstr "فاتوره مبيعات"
+
+#: _helpers/models.py:307
+msgid "Refund"
+msgstr "مرتجع"
+
+#: _helpers/models.py:308
+msgid "Deposite"
+msgstr "دفعه نقديه مستلمه تحت الحساب"
+
+#: app/settings.py:144
+msgid "English"
+msgstr "اﻻنكليزيه"
+
+#: app/settings.py:145
+msgid "Arabic"
+msgstr "العربيه"
+
+#: app/settings.py:216
+msgid "roles"
+msgstr "الصـلاحيات"
+
+#: app/settings.py:217
+msgid "erp Clients"
+msgstr "العملاء"
+
+#: app/settings.py:221
+msgid "erp suppliers"
+msgstr "الموردون"
+
+#: app_user/admin.py:69
+msgid "New password"
+msgstr "كلمه المرور جديد "
+
+#: app_user/admin.py:69 app_user/admin.py:70
+msgid "passwords don't match"
+msgstr "كلمات المرور لاتتطابق"
+
+#: app_user/admin.py:70
+msgid "Confirm new password"
+msgstr "تاكيد كلمه المرور"
+
+#: app_user/admin.py:75 app_user/admin.py:184
+msgid "new_password"
+msgstr "كلمه المرور"
+
+#: app_user/admin.py:76 app_user/admin.py:185
+msgid "confirm_password"
+msgstr "تاكيد كلمه المرور"
+
+#: app_user/admin.py:116 client/admin.py:145 supplier/admin.py:142
+msgid "activate"
+msgstr "مفعل"
+
+#: app_user/admin.py:116 client/admin.py:146 supplier/admin.py:143
+msgid "deactivate"
+msgstr "تعطيل الاعضاء المختاره"
+
+#: app_user/admin.py:131
+msgid "Activate users"
+msgstr "تفعيل اﻻعضاء المختاره"
+
+#: app_user/admin.py:138
+msgid "Deactivate users"
+msgstr "تعطيل الاعضاء المختاره"
+
+#: app_user/admin.py:172
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: app_user/admin.py:180
+msgid "Change Password"
+msgstr "تغير كلمه المرور"
+
+#: app_user/admin.py:188
+msgid "Personal_info"
+msgstr "معلومات شخصيه"
+
+#: app_user/admin.py:200
+msgid "Important Dates"
+msgstr "تواريخ هامه"
+
+#: app_user/admin.py:204 client/admin.py:51
+msgid "is_active"
+msgstr "مفعل"
+
+#: app_user/admin.py:204
+msgid "is_staff"
+msgstr "عضو للوحه تحكم الموقع"
+
+#: app_user/admin.py:204
+msgid "is_superuser"
+msgstr "له كل الصلاحيات بالبرنامج"
+
+#: app_user/admin.py:206
+msgid "Permissions"
+msgstr "الصلاحيات"
+
+#: app_user/admin.py:244
+msgid "ERP APP"
+msgstr "برنامج اداره اﻻعمال المحاسيبه"
+
+#: app_user/admin.py:245
+msgid "ERP APP Administration"
+msgstr "لوحه تحكم البرنامج"
+
+#: app_user/admin.py:246
+msgid "ERP APP Management"
+msgstr "اداره البرنامج"
+
+#: app_user/apps.py:7 app_user/models.py:71
+msgid "Users"
+msgstr "المستخدمون"
+
+#: app_user/models.py:70
+msgid "User"
+msgstr "مستخدم"
+
+#: app_user/models.py:74
+msgid "First name"
+msgstr "اﻻسم اﻻول"
+
+#: app_user/models.py:80
+msgid "Last name"
+msgstr "اسم الاخير"
+
+#: app_user/models.py:86 client/models.py:20 supplier/models.py:16
+msgid "User Image"
+msgstr "صوره المستخدم"
+
+#: app_user/models.py:88 client/models.py:23 supplier/models.py:17
+msgid "User Email"
+msgstr "البريد اﻻلكتروني"
+
+#: app_user/models.py:90 client/models.py:24 supplier/models.py:18
+msgid "User Phone Number"
+msgstr "رقم هاتف المستخدم"
+
+#: app_user/models.py:93
+msgid "Addtional User Phone Number"
+msgstr "رقم هاتف المستخدم اضافي"
+
+#: app_user/models.py:100 client/models.py:26 supplier/models.py:19
+msgid "Gender"
+msgstr "النوع"
+
+#: app_user/models.py:102 client/models.py:28 supplier/models.py:20
+msgid "User Address"
+msgstr "عنوان المستخدم"
+
+#: app_user/models.py:104
+msgid "User age"
+msgstr "عمر المستخدم"
+
+#: app_user/models.py:105 client/models.py:29 supplier/models.py:21
+msgid "City name"
+msgstr "المدينه"
+
+#: app_user/models.py:108
+msgid "Country"
+msgstr "البلد"
+
+#: app_user/models.py:109
+msgid "Is active"
+msgstr "مفعل"
+
+#: app_user/models.py:111
+msgid "Is staff"
+msgstr "عضو للوحه تحكم الموقع"
+
+#: app_user/models.py:113
+msgid "Job name"
+msgstr "اسم الوظيفه"
+
+#: app_user/models.py:130 client/models.py:120 supplier/models.py:101
+msgid "Image preview"
+msgstr "معاينه الصوره"
+
+#: app_user/models.py:134 app_user/models.py:163 app_user/models.py:180
+msgid "Department"
+msgstr "القسم"
+
+#: app_user/models.py:162 app_user/models.py:165
+msgid "Job"
+msgstr "الوظيفه"
+
+#: app_user/models.py:166
+msgid "Jobs"
+msgstr "الوظائف"
+
+#: app_user/models.py:178 item/models.py:68 item/models.py:109
+#: item/models.py:118 item/models.py:129 warehouse/models.py:6
+#: warehouse/models.py:12
+msgid "Name"
+msgstr "اﻻسم"
+
+#: app_user/models.py:181
+msgid "Departments"
+msgstr "اﻻقسام"
+
+#: app_user/models.py:194 item/models.py:48 payment/admin.py:334
+#: payment/models.py:141 supplier/admin.py:217 supplier/apps.py:7
+#: supplier/models.py:12 supplier/models.py:117
+msgid "Supplier"
+msgstr "المورد"
+
+#: app_user/models.py:195 client/admin.py:277 client/apps.py:8
+#: client/models.py:16 payment/models.py:93
+msgid "Client"
+msgstr "العميل"
+
+#: app_user/models.py:196
+msgid "date"
+msgstr "التاريخ"
+
+#: app_user/models.py:197
+msgid "delimiter"
+msgstr ""
+
+#: app_user/models.py:199 app_user/models.py:200
+msgid "Closing Period"
+msgstr "تقفيل الحساب"
+
+#: area/management/commands/area_seed.py:8
+msgid "seeds areas into the database"
+msgstr ""
+
+#: client/admin.py:49 client/admin.py:65 client/admin.py:106
+#: client/admin.py:489 supplier/admin.py:49 supplier/admin.py:91
+#: supplier/admin.py:303
+msgid "email"
+msgstr "البريد اﻻلكتروني"
+
+#: client/admin.py:50 client/admin.py:66 client/admin.py:107
+#: client/admin.py:488 supplier/admin.py:50 supplier/admin.py:92
+#: supplier/admin.py:302 supplier/models.py:116
+msgid "phone"
+msgstr "التليفون"
+
+#: client/admin.py:52 client/admin.py:93 client/admin.py:134
+#: supplier/admin.py:78 supplier/admin.py:120
+msgid "taxes"
+msgstr "الضرائب"
+
+#: client/admin.py:53
+msgid "make_transaction"
+msgstr "افعل عمليه"
+
+#: client/admin.py:54
+msgid "get_net"
+msgstr "الصافي"
+
+#: client/admin.py:60 client/admin.py:101 supplier/admin.py:44
+#: supplier/admin.py:86
+msgid "Main info"
+msgstr " المعلومات الرئيسيه"
+
+#: client/admin.py:67 client/admin.py:108 supplier/admin.py:51
+#: supplier/admin.py:93
+msgid "gender"
+msgstr "النوع"
+
+#: client/admin.py:68 client/admin.py:109 supplier/admin.py:52
+#: supplier/admin.py:94
+msgid "img"
+msgstr "صوره"
+
+#: client/admin.py:72 client/admin.py:113 supplier/admin.py:56
+#: supplier/admin.py:98
+msgid "Location"
+msgstr "الموقع"
+
+#: client/admin.py:75 client/admin.py:116 supplier/admin.py:59
+#: supplier/admin.py:101
+msgid "country"
+msgstr "البلد"
+
+#: client/admin.py:76 client/admin.py:117 supplier/admin.py:60
+#: supplier/admin.py:102
+msgid "area"
+msgstr "المنطقه"
+
+#: client/admin.py:77 client/admin.py:118 client/admin.py:486
+#: supplier/admin.py:61 supplier/admin.py:103 supplier/admin.py:300
+msgid "city"
+msgstr "المدينه"
+
+#: client/admin.py:78 client/admin.py:119 client/admin.py:487
+#: supplier/admin.py:62 supplier/admin.py:104 supplier/admin.py:301
+msgid "Address"
+msgstr "عنوان المستخدم بالتفصيل"
+
+#: client/admin.py:81 client/admin.py:122 supplier/admin.py:65
+#: supplier/admin.py:107
+msgid "Cash"
+msgstr "المعاملات الماليه"
+
+#: client/admin.py:86 client/admin.py:127 supplier/admin.py:70
+#: supplier/admin.py:112
+msgid "get_cash"
+msgstr "حساب العميل"
+
+#: client/admin.py:89 client/admin.py:130 client/models.py:39
+#: supplier/admin.py:74 supplier/admin.py:116 supplier/models.py:25
+msgid "Taxes"
+msgstr "الضرائب"
+
+#: client/admin.py:94 client/admin.py:135 supplier/admin.py:79
+#: supplier/admin.py:121
+msgid "taxes_rate"
+msgstr "قيمه الضرائب"
+
+#: client/admin.py:97 client/admin.py:138 payment/models.py:22 status/apps.py:7
+#: status/models.py:9 status/models.py:23 status/models.py:26
+#: supplier/admin.py:82 supplier/admin.py:124
+msgid "Status"
+msgstr "الحاله"
+
+#: client/admin.py:128 supplier/admin.py:113
+msgid "period_close"
+msgstr "تقفل الحساب"
+
+#: client/admin.py:147 supplier/admin.py:144
+msgid "export_as_xls"
+msgstr "تصدير كملف xls"
+
+#: client/admin.py:148 supplier/admin.py:145
+msgid "export_invoices_for"
+msgstr "تصدير التقارير اليوميه"
+
+#: client/admin.py:158
+msgid "Activate selected clients"
+msgstr "تفعيل اﻻعضاء المختاره"
+
+#: client/admin.py:165
+msgid "Deactivate selected clinets"
+msgstr "تعطيل الاعضاء المختاره"
+
+#: client/admin.py:193 payment/admin.py:183 payment/admin.py:398
+#: payment/admin.py:511 supplier/admin.py:357
+msgid "issued_at"
+msgstr "وقت اﻻصدار"
+
+#: client/admin.py:194 payment/admin.py:184 payment/admin.py:399
+#: payment/admin.py:512 supplier/admin.py:358
+msgid "type_tranasction"
+msgstr "نوع العمليه"
+
+#: client/admin.py:231 client/admin.py:395 supplier/admin.py:174
+#: supplier/admin.py:200
+msgid "account statment"
+msgstr "كشف حساب"
+
+#: client/admin.py:266 supplier/admin.py:207
+msgid "Filter Transactions"
+msgstr "فلتر العمليات"
+
+#: client/admin.py:271 supplier/admin.py:211
+msgid "Payment type"
+msgstr "نوع المدفوعات"
+
+#: client/admin.py:274 supplier/admin.py:214 supplier/admin.py:465
+msgid "CURRENCY"
+msgstr "العمله"
+
+#: client/admin.py:278 supplier/admin.py:218
+msgid "VIEW"
+msgstr "عرض"
+
+#: client/admin.py:279 supplier/admin.py:219
+msgid "CSV"
+msgstr "ملف اكسل"
+
+#: client/admin.py:280 supplier/admin.py:220
+msgid "PDF"
+msgstr "PDF"
+
+#: client/admin.py:282 supplier/admin.py:222
+msgid "Page"
+msgstr "صفحه"
+
+#: client/admin.py:283 supplier/admin.py:223
+msgid "of"
+msgstr "من"
+
+#: client/admin.py:284 supplier/admin.py:224
+msgid "next"
+msgstr "التالي"
+
+#: client/admin.py:285 supplier/admin.py:225
+msgid "previous"
+msgstr "السابق"
+
+#: client/admin.py:286 supplier/admin.py:226
+msgid "last page"
+msgstr "الصفحه اﻻخيره"
+
+#: client/admin.py:287 supplier/admin.py:227
+msgid "first"
+msgstr "اﻻسم اﻻول"
+
+#: client/admin.py:355 supplier/admin.py:435
+msgid "net"
+msgstr "الصافي"
+
+#: client/admin.py:356 supplier/admin.py:436
+msgid "debit no"
+msgstr "عدد العلميات الدائن"
+
+#: client/admin.py:357 supplier/admin.py:437
+msgid "credit no"
+msgstr "عدد العمليات المدين"
+
+#: client/admin.py:360 supplier/admin.py:440
+msgid "clothes shop"
+msgstr "الملابس الجاهزه"
+
+#: client/admin.py:361 supplier/admin.py:441
+msgid "closing a period for"
+msgstr "تقفيل الحساب"
+
+#: client/admin.py:362 supplier/admin.py:442
+msgid "closing day"
+msgstr "تاريخ التقفيل"
+
+#: client/admin.py:368 supplier/admin.py:448
+msgid "old balance"
+msgstr " الرصيد السابق"
+
+#: client/admin.py:394 supplier/admin.py:173
+msgid "export"
+msgstr "تصدير"
+
+#: client/admin.py:507 supplier/admin.py:321
+msgid "Export Selected as xls"
+msgstr "تصدير المحدد"
+
+#: client/models.py:17
+msgid "Clients"
+msgstr "العملاء"
+
+#: client/models.py:27
+msgid "male"
+msgstr "ذكر"
+
+#: client/models.py:27
+msgid "female"
+msgstr "انثي"
+
+#: client/models.py:31
+msgid "Payment Method"
+msgstr "المدفوعات"
+
+#: client/models.py:33
+msgid "Register at"
+msgstr "وقت التسجيل"
+
+#: client/models.py:35 supplier/models.py:22
+msgid "country name"
+msgstr "البلد"
+
+#: client/models.py:37
+msgid "Date of deactive the client"
+msgstr "تعطيل الاعضاء المختاره"
+
+#: client/models.py:38 supplier/models.py:24
+msgid "Is Active"
+msgstr "متاح اﻻن"
+
+#: client/models.py:40 supplier/models.py:27
+msgid "Taxes Rate"
+msgstr "قيمه الضرائب"
+
+#: client/models.py:42 supplier/models.py:29
+msgid "inital cash of account"
+msgstr "حساب العميل اﻻبتدائي"
+
+#: client/models.py:74 client/models.py:75 supplier/models.py:58
+#: supplier/models.py:59
+msgid "period close"
+msgstr "تقفيل الحساب"
+
+#: client/models.py:95 client/models.py:96 supplier/models.py:78
+#: supplier/models.py:79
+msgid "with"
+msgstr "ب"
+
+#: client/models.py:97 supplier/models.py:80
+msgid "Client balance"
+msgstr " رصيد العميل"
+
+#: client/models.py:114 supplier/models.py:95
+msgid "Net"
+msgstr "الصافي"
+
+#: client/models.py:123 supplier/models.py:104
+msgid "Make a transaction"
+msgstr "افعل عمليه"
+
+#: client/models.py:124 supplier/models.py:105
+msgid "make a transaction"
+msgstr "افعل عمليه"
+
+#: client/signals.py:17 client/signals.py:20 client/signals.py:33
+#: client/signals.py:36 supplier/signals.py:17 supplier/signals.py:20
+#: supplier/signals.py:33 supplier/signals.py:36
+msgid "Opening account"
+msgstr "فتح حساب"
+
+#: invoice/apps.py:8
+msgid "Invoice"
+msgstr "الفاتوره"
+
+#: item/models.py:13 item/models.py:49 item/models.py:58 payment/models.py:192
+msgid "Item"
+msgstr "المنتج"
+
+#: item/models.py:14 supplier/models.py:26
+msgid "Items"
+msgstr "المنتاجات"
+
+#: item/models.py:16
+msgid "Label"
+msgstr "المسمى"
+
+#: item/models.py:18
+msgid "Price of an item"
+msgstr "سعر القطعه"
+
+#: item/models.py:19
+msgid "Details"
+msgstr "التفاصيل"
+
+#: item/models.py:20
+msgid "Unit"
+msgstr "الوحده"
+
+#: item/models.py:21 item/models.py:86 status/models.py:56
+msgid "Variation"
+msgstr "الاختلاف"
+
+#: item/models.py:22
+msgid "Image"
+msgstr "الصوره"
+
+#: item/models.py:23
+msgid "Banner"
+msgstr "الصوره الخليفه"
+
+#: item/models.py:24
+msgid "Tax"
+msgstr "الضرائب"
+
+#: item/models.py:25
+msgid "Serial Number"
+msgstr "رقم التسلسل"
+
+#: item/models.py:26
+msgid "Supplier price"
+msgstr "سعر المورد"
+
+#: item/models.py:27 item/models.py:51
+msgid "Desctiption"
+msgstr "الوصـــف"
+
+#: item/models.py:28
+msgid "Is optional"
+msgstr "هل هو اختياري"
+
+#: item/models.py:29
+msgid "Item as Json"
+msgstr "بيانات المنتج"
+
+#: item/models.py:30
+msgid "Vat"
+msgstr ""
+
+#: item/models.py:31 item/models.py:127 item/models.py:128
+msgid "CTX"
+msgstr ""
+
+#: item/models.py:37 item/models.py:41
+msgid "cost_per_item"
+msgstr "تكلفه القطع"
+
+#: item/models.py:50 payment/models.py:195
+msgid "Quantity"
+msgstr "العدد المطلوب"
+
+#: item/models.py:59
+msgid "Filename"
+msgstr "اﻻسم اﻻول"
+
+#: item/models.py:60
+msgid "Path"
+msgstr "المسار"
+
+#: item/models.py:65 item/models.py:89
+msgid "Category"
+msgstr "النوع"
+
+#: item/models.py:66
+msgid "Categories"
+msgstr "اﻻنواع"
+
+#: item/models.py:75 item/models.py:90 status/models.py:6 status/models.py:60
+msgid "Option"
+msgstr "النوع الفرعي"
+
+#: item/models.py:76 status/models.py:7
+msgid "Options"
+msgstr "اﻻنواع الفرعيه"
+
+#: item/models.py:78
+msgid "Title"
+msgstr "العنوان"
+
+#: item/models.py:87 status/models.py:57
+msgid "Variations"
+msgstr "اﻻختلافات"
+
+#: item/models.py:98 payment/models.py:201
+msgid "Discount"
+msgstr "الخصم"
+
+#: item/models.py:99
+msgid "Discounts"
+msgstr "الخصومات"
+
+#: item/models.py:101 status/models.py:40 status/models.py:43
+#: status/models.py:59
+msgid "Type"
+msgstr "النوع"
+
+#: item/models.py:102
+msgid "Rate"
+msgstr "النسبه"
+
+#: item/models.py:108 item/models.py:117
+msgid "Number"
+msgstr "الرقم"
+
+#: item/models.py:110 item/models.py:119
+msgid "Display Name"
+msgstr "اﻻسم للعرض"
+
+#: payment/admin.py:81 payment/admin.py:82
+msgid "transaction details"
+msgstr "تفاصيل العمليه"
+
+#: payment/admin.py:152 payment/admin.py:484
+msgid "Daily transactions"
+msgstr " العمليات اليوميه"
+
+#: payment/admin.py:152 payment/admin.py:484
+msgid "Export"
+msgstr "تصدير"
+
+#: payment/admin.py:204 payment/admin.py:532
+msgid "Export Selected"
+msgstr "تصدير المحدد"
+
+#: payment/admin.py:289 payment/admin.py:580
+msgid "There are no transactions for that date"
+msgstr "ليس هناك عمليات بهذا التاريخ"
+
+#: payment/admin.py:667
+msgid "payment type"
+msgstr "نوع المدفوعات"
+
+#: payment/admin.py:668
+msgid "type of tranasction"
+msgstr "نوع العمليه"
+
+#: payment/apps.py:8 payment/models.py:17
+msgid "Payment"
+msgstr "الدفع"
+
+#: payment/management/commands/seedtranstypes.py:16
+msgid "purchases invoice"
+msgstr "فاتورة مشتريات"
+
+#: payment/management/commands/seedtranstypes.py:21
+msgid "deposite for account"
+msgstr "دفعة نقدية مدفوعة تحت الحساب"
+
+#: payment/management/commands/seedtranstypes.py:25
+msgid "deposite from account"
+msgstr "دفعة نقدية مستلمة تحت الحساب"
+
+#: payment/management/commands/seedtranstypes.py:29
+msgid "refund inovice"
+msgstr "  فاتورة مرتجع "
+
+#: payment/management/commands/seedtranstypes.py:33
+msgid "sales"
+msgstr "فاتوره مبيعات "
+
+#: payment/management/commands/seedtranstypes.py:37
+msgid "refund  inovice"
+msgstr "فاتورة مرتجع"
+
+#: payment/models.py:18
+msgid "Paymentes"
+msgstr "المدفوعات"
+
+#: payment/models.py:25
+msgid "Payment method"
+msgstr "طريقه الدفع"
+
+#: payment/models.py:27
+msgid "Amount Paid"
+msgstr "المبلغ"
+
+#: payment/models.py:30 payment/models.py:65
+msgid "Currency"
+msgstr "العمله"
+
+#: payment/models.py:37
+msgid "Payment Type"
+msgstr "نوع المدفوعات"
+
+#: payment/models.py:39
+msgid "which type is related"
+msgstr " مرتبطه ب"
+
+#: payment/models.py:40
+msgid "For supplier"
+msgstr "للمورد"
+
+#: payment/models.py:41
+msgid "For client"
+msgstr "للعميل"
+
+#: payment/models.py:57
+msgid "File"
+msgstr "ملف/ صوره"
+
+#: payment/models.py:60
+msgid "Payment transaction Type"
+msgstr "نوع عمليه الدفع"
+
+msgid "payment transaction type"
+msgstr "نوع عمليه الدفع"
+
+#: payment/models.py:69
+msgid "Transaction type"
+msgstr "نوع العمليه"
+
+#: payment/models.py:89
+msgid "Client payment transaction"
+msgstr "مقبوضات العميل"
+
+#: payment/models.py:90
+msgid "Client payment transactions"
+msgstr "مقبوضات العميل"
+
+#: payment/models.py:98
+msgid "client balance after transaction"
+msgstr "الحساب  بعد عمليه الدفع"
+
+#: payment/models.py:110
+msgid "client Cash after transaction"
+msgstr "الحساب  بعد عمليه الدفع"
+
+#: payment/models.py:118
+msgid "client cash"
+msgstr "حساب العميل"
+
+#: payment/models.py:121 payment/models.py:178
+msgid "transaction for "
+msgstr "العمليه"
+
+#: payment/models.py:125 payment/models.py:130 payment/models.py:182
+msgid "print transaction"
+msgstr "طبع العمليه"
+
+#: payment/models.py:126 payment/models.py:183
+msgid "print_transaction"
+msgstr "طبع العمليه"
+
+#: payment/models.py:135
+msgid "Supplier payment transaction"
+msgstr "المدفوعات للموردين"
+
+#: payment/models.py:136
+msgid "Supplier payment transactions"
+msgstr "المدفوعات للموردين"
+
+#: payment/models.py:139
+msgid "Item of the transactions if there are any"
+msgstr "المنتاجات اذا كان هناك"
+
+#: payment/models.py:151
+msgid "total cost for the items"
+msgstr "تكلفه المنتاجات"
+
+#: payment/models.py:167
+msgid "Supplier Cash after transaction"
+msgstr "الحساب  بعد عمليه الدفع"
+
+#: payment/models.py:175
+msgid "supplier cash"
+msgstr "حساب المورد"
+
+#: payment/models.py:188 payment/models.py:189
+msgid "Transaction Items"
+msgstr "تفاصيل العمليه"
+
+#: payment/models.py:194
+msgid "transaction"
+msgstr "العمليه"
+
+#: payment/models.py:197
+msgid "Price"
+msgstr "السعر"
+
+#: payment/models.py:199
+msgid "Supplier Price"
+msgstr "سعر المورد"
+
+#: payment/models.py:213
+msgid "cost per item"
+msgstr "تكلفه القطع"
+
+#: status/models.py:24
+msgid "Statuses"
+msgstr "الحاﻻت"
+
+#: status/models.py:41
+msgid "Types"
+msgstr "اﻻنواع"
+
+#: supplier/admin.py:276
+msgid "Activate selected suppliers"
+msgstr "تفعيل اﻻعضاء المختاره"
+
+#: supplier/admin.py:328
+msgid "Deactivate selected suppliers"
+msgstr "تعطيل الاعضاء المختاره"
+
+#: supplier/admin.py:465
+msgid "AMOUT"
+msgstr "التكلفه"
+
+#: supplier/admin.py:467
+msgid "SUPPLIER"
+msgstr "العميل"
+
+#: supplier/admin.py:467
+msgid "LINK TO PAYMENT"
+msgstr " عرض الفاتوره"
+
+#: supplier/forms.py:23
+msgid "how to withdraw"
+msgstr "كيفيه السحب"
+
+#: supplier/models.py:13
+msgid "Suppliers"
+msgstr "الموردون"
+
+#: supplier/models.py:23
+msgid "Registered at"
+msgstr "وقت التسجيل"
+
+#: supplier/models.py:112
+msgid "Executive"
+msgstr "ممثل الشركه"
+
+#: supplier/models.py:113
+msgid "Executives"
+msgstr "ممثلوا الشركه"
+
+#: templates/admin/base_site.html:48
+msgid "Change password"
+msgstr "تغير كلمه المرور"
+
+#: templates/admin/base_site.html:50
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: templates/admin/pagination/pagination.html:10
+msgid "Show all"
+msgstr "اعرض الكل"
+
+#: templates/admin/pagination/pagination.html:11
+msgid "Save"
+msgstr "احفظ"
+
+#: warehouse/models.py:7
+msgid "Phone number"
+msgstr "رقم هاتف"
+
+#: warehouse/models.py:8
+msgid "Additinol phone number"
+msgstr "رقم هاتف المستخدم اضافي"
+
+#: warehouse/models.py:9
+msgid "Email"
+msgstr "البريد اﻻلكتروني"
+
+#: warehouse/models.py:13
+msgid "address"
+msgstr "عنوان المستخدم بالتفصيل"
+
+#: warehouse/models.py:15 warehouse/models.py:16
+msgid "Opening time"
+msgstr "فتح حساب"
+
+#: warehouse/models.py:17
+msgid "Warehouse manager"
+msgstr "مدير المخازن"
+
+#~ msgid "the transaction type"
+#~ msgstr "تفصيل عميله الدفع"
+
+#~ msgid "the description of the transaction"
+#~ msgstr "الوصـــف"
+
+#~ msgid "currency of transaction"
+#~ msgstr "العمله"
+
+#~ msgid "to whom the transaction  is"
+#~ msgstr "العمليه لحساب"
+
+
+
+
+
+
+msgid "Cairo"
+msgstr "القاهره"
+
+msgid "Alexandria"
+msgstr "الاسكندريه"
+
+msgid "Giza"
+msgstr "الجيزه"
+
+msgid "Dakahlia"
+msgstr "الدقهليه"
+
+msgid "Red Sea"
+msgstr "البحر الاحمر"
+
+msgid "Beheira"
+msgstr "البحيره"
+
+msgid "Fayoum"
+msgstr "الفيوم"
+
+msgid "Gharbiya"
+msgstr "الغربيه"
+
+msgid "Ismailia"
+msgstr "الاسماعيليه"
+
+msgid "Menofia"
+msgstr "المنوفيه"
+
+msgid "Minya"
+msgstr "المنيا"
+
+msgid "Qaliubiya"
+msgstr "القليوبيه"
+
+msgid "New Valley"
+msgstr "الوادي الجديد"
+
+msgid "Suez"
+msgstr "السويس"
+
+msgid "Aswan"
+msgstr "اسوان"
+
+msgid "Assiut"
+msgstr "اسيوط"
+
+msgid "Beni Suef"
+msgstr "بني سويف"
+
+msgid "Port Said"
+msgstr "بورسعيد"
+
+msgid "Damietta"
+msgstr "دمياط"
+
+msgid "Sharkia"
+msgstr "الشرقيه"
+
+msgid "South Sinai"
+msgstr "جنوب سيناء"
+
+msgid "Kafr Al sheikh"
+msgstr "كفر الشيخ"
+
+msgid "Matrouh"
+msgstr "مطروح"
+
+msgid "Luxor"
+msgstr "الاقصر"
+
+msgid "Qena"
+msgstr "قنا"
+
+msgid "North Sinai"
+msgstr "شمال سيناء"
+
+msgid "Sohag"
+msgstr "سوهاج"
+
+#: _helpers/models.py:102
+msgid "Eritrea"
+msgstr "اريتريا"
+
+#: _helpers/models.py:108
+msgid "Finland"
+msgstr "فنلندا"
+
+#: _helpers/models.py:117
+msgid "Ghana"
+msgstr "غانا"
+
+#: _helpers/models.py:141
+msgid "Isle of Man"
+msgstr "جزيرة مان"
+
+#: _helpers/models.py:150
+msgid "Kiribati"
+msgstr "كيريبياس"
+
+#: _helpers/models.py:158
+msgid "Lesotho"
+msgstr "ليسوتو"
+
+#: _helpers/models.py:252
+msgid "Togo"
+msgstr "توجو"
+
+#: _helpers/models.py:278
+msgid "Zimbabwe"
+msgstr "زمبابو"
+
+msgid "admin"
+msgstr "مدير"
+
+msgid "Can delete log entry"
+msgstr "يستطيع حذف"
+
+msgid"Can add log entry"  
+msgstr"يمكن اضافة ادخال السجل" 
+       
+msgid"Can change log entry"
+msgstr"يمكن تغيير السجل" 
+
+msgid"Can view log entry"
+msgstr"يمكن حذف ادخال السجل" 
+
+msgid"app_user" 
+msgstr"مستخدم"  
+   
+     
+msgid"Can add Closing Period"
+msgstr"يمكن اضافه فتره الاغلاق" 
+   
+  
+msgid"Can delete Closing Period" 
+msgstr"يمكن تغيير فتره الاغلاق" 
+
+msgid "Can view Closing Period"
+msgstr "يمكن عرض فتره الاغلاق"  
+   
+
+msgid "Can change Closing Period"
+msgstr "يمكن  تعديل فتره الاغلاق"  
+
+msgid"Can add Department" 
+msgstr"يمكن  اضافة القسم" 
+ 
+msgid"Can change Department" 
+msgstr"يمكن تغيير الاقسم"  
+
+msgid"Can delete Department" 
+msgstr"يمكن حذف القسم" 
+ 
+msgid"Can view Department" 
+msgstr"يمكن عرض القسم" 
+ 
+msgid"Can add Job" 
+msgstr"يمكن اضافة الوظيفة" 
+ 
+msgid"Can change Job" 
+msgstr"يمكنك تغيير الوظيفة" 
+ 
+msgid"Can delete Job"
+msgstr"يمكن حذف الوظيفة" 
+ 
+msgid"Can view Job" 
+msgstr"يمكن عرض الوظيفة" 
+     
+msgid"Can add User"
+msgstr"يمكن اضافة المستخدم" 
+    
+msgid"Can change User"
+msgstr"يمكن تغيير المستخدم" 
+
+msgid"Can delete User"
+msgstr"يمكن حذف المستخدم" 
+   
+msgid"Can view User" 
+msgstr"يمكن عرض المستخدم" 
+ 
+msgid"Can add Area"
+msgstr"يمكن ان تضيف المنطقة" 
+  
+msgid"Can change Area"
+msgstr"يمكن تغيير المنطقة" 
+ 
+msgid"Can delete Area"
+msgstr"يمكن حذف المنطقة" 
+   
+msgid"Can view Area"
+msgstr"يمكن عرض المنطقة" 
+    
+msgid"Can add group"
+msgstr"يمكن ان تضيف المجموعة" 
+   
+msgid"Can change group"
+msgstr"يمكن تغيير المجموعة" 
+    
+msgid"Can delete group"
+msgstr"يمكن حذف المجموعة" 
+    
+ msgid"Can view group"
+ msgstr"يمكن عرض المجموعة" 
+  
+msgid"Can add permission"
+msgstr"يمكن اضافة الإذن" 
+ 
+msgid"Can change permission"
+msgstr"يمكن تغيير الإذن" 
+   
+msgid"Can delete permission"
+msgstr"يمكن حذف الإذن" 
+
+msgid"Can view permission"
+msgstr"يمكن عرض الإذن" 
+ 
+msgid"Can add Token"
+msgstr"يمكن اضافة رمز" 
+   
+msgid"Can change Token"
+msgstr"يمكن تغيير الرمز" 
+  
+msgid"Can delete Token"
+msgstr"يمكن حذف الرمز" 
+    
+msgid"Can view Token"
+msgstr"يمكن عرض الرمز" 
+
+msgid"Can add Client"
+msgstr"يمكن اضافة العميل " 
+
+msgid"contenttypes"
+msgstr"انواع الصلاحيات" 
+   
+msgid"Can change Client"
+msgstr"يمكن تغيير العميل " 
+   
+msgid"Can delete Client"
+msgstr"يمكن حذف العميل" 
+   
+msgid"Can view Client"
+msgstr"يمكن عرض العميل" 
+   
+msgid"Can add content type"
+msgstr"يمكن اضافة نوع المحتوي " 
+   
+ 
+msgid"Can change content type"
+msgstr"يمكن تغيير نوع المحتوى" 
+   
+msgid"Can delete content type"
+msgstr"يمكن حذف نوع المحتوى" 
+   
+msgid"Can view content type"
+msgstr"يمكن عرض نوع المحتوى" 
+ 
+msgid"Can add Category"
+msgstr"يمكن اضافة فئة" 
+   
+msgid"Can change Category"
+msgstr"يمكن تعديل فئة" 
+
+msgid"Can delete Category"
+msgstr"يمكن حذف الفئة" 
+
+msgid"Can view Category" 
+msgstr"يمكن عرض الفئة" 
+     
+msgid"Can add ctx "
+msgstr"يمكن ان تضيف ctx" 
+ 
+msgid"Can change ctx "
+msgstr"يمكن تغيير ctx" 
+
+msgid"Can delete ctx"
+msgstr"يمكن حذفctx" 
+  
+msgid"Can view ctx "
+msgstr"يمكن عرض ctx" 
+    
+
+msgid"Can add Discount"
+msgstr"يمكن اضافة الخصم" 
+
+msgid"Can change Discount"
+msgstr"يمكن تغيير الخصم " 
+  
+msgid"Can delete Discount"
+msgstr"يمكن حذف الخصم" 
+   
+msgid"Can view Discount"
+msgstr"يمكن عرض الخصم " 
+   
+msgid"Can add Item"
+msgstr"يمكن اضافه عنصر " 
+
+msgid"Can change Item"
+msgstr"يمكن تغيير العنصر" 
+   
+msgid"Can delete Item"
+msgstr"يمكن تغيير العنصر" 
+
+
+msgid"item"
+msgstr"العنصر"
+
+msgid"Can view Item"
+msgstr"يمكن عرض العنصر " 
+
+
+msgid"item file"
+msgstr"ملف البند"
+
+msgid"Can change item file"
+msgstr"يمكن تغيير ملف العنصر"
+
+msgid"Can delete item file"
+msgstr"يمكن حذف ملف العنصر"
+
+msgid"Can view item file"
+msgstr"يمكن عرض ملف العنصر"
+
+msgid"Can add item file"
+msgstr"يمكن إضافة ملف البند"
+
+
+
+msgid"Can change session"
+msgstr"يمكن تغيير الجلسة"
+
+msgid"Can delete session"
+msgstr"يمكن حذف الجلسة"
+
+msgid"Can view session"
+msgstr"يمكن عرض الجلسة"
+
+msgid"Can add session"
+msgstr"يمكن إضافة الجلسة"
+
+
+
+msgid"Can add Option"
+msgstr"يمكن ان تضيف الخيار " 
+ 
+msgid"Can change Option"
+msgstr"يمكن تغيير الخيار " 
+
+msgid"Can delete Option"
+msgstr"يمكن حذف الخيار " 
+     
+msgid"Can view Option"
+msgstr" يمكن عرض الخيار " 
+ 
+msgid"status"
+msgstr"الحالة"
+
+msgid"Can add status"
+msgstr"يمكن ان تضيف الحالة"
+   
+msgid "Can change status"   
+msgstr "يمكن تغيير الحالة " 
+ 
+msgid"Can delete status"
+msgstr"يمكن حذف الحالة " 
+
+msgid"Can view status"
+msgstr"يمكن عرض الحالة " 
+ 
+
+msgid"Can add Status"
+msgstr"يمكن ان تضيف الحالة"
+   
+msgid "Can change Status"   
+msgstr "يمكن تغيير الحالة " 
+ 
+msgid"Can delete Status"
+msgstr"يمكن حذف الحالة " 
+
+msgid"Can view Status"
+msgstr"يمكن عرض الحالة " 
+
+msgid"supplier item"
+msgstr"عنصر المورد" 
+
+msgid"Can delete supplier item"
+msgstr"يمكن حذف عنصر المورد " 
+
+msgid"Can view supplier item"
+msgstr"يمكن عرض عنصر المورد " 
+
+msgid"Can change supplier item"
+msgstr"يمكن تغيير عنصر المورد " 
+
+msgid"Can add supplier item"
+msgstr"يمكن اضافة عنصر المورد" 
+
+msgid"Can view Variation"
+msgstr"يمكن عرض الاختلاف"
+
+msgid"Can add Variation"
+msgstr"يمكن اضافة الاختلاف"
+
+msgid"Can delete Variation"
+msgstr"يمكن حذف  الاختلاف"
+
+msgid"Can change Variation"
+msgstr"يمكن تعديل الاختلاف"
+
+msgid"Can add vat"
+msgstr"يمكن اضافة ضريبة القيمه المضافة" 
+ 
+msgid"Can change vat"
+msgstr"يمكن تغيير ضريبة القيمة المضافة" 
+ 
+msgid"Can delete vat"
+msgstr"يمكن حذف ضريبة القيمه المضافة " 
+ 
+msgid"Can view vat"
+msgstr"يمكن عرض ضريبه القيمة المضافة " 
+ 
+msgid"Can add Client payment transaction"
+msgstr"يمكن اضافة معاملة دفع  العميل " 
+
+msgid"Can change Client payment transaction"
+msgstr"يمكن تغيير معامله دفع العميل " 
+
+msgid"Can delete Client payment transaction"
+msgstr"يمكن حذف معاملة دفع  العميل " 
+
+msgid"Can view Client payment transaction"
+msgstr"يمكن اﻻطلاع على معاملة دفع  العميل " 
+
+msgid"Can view Transaction Items"
+msgstr"يمكن اﻻطلاع منتجات عملية الدفع " 
+
+msgid"Can add Transaction Items"
+msgstr"يمكن اضافة منتجات عملية الدفع " 
+
+msgid"Can change Transaction Items"
+msgstr"يمكن تعديل عل منتجات عملية الدفع " 
+
+msgid"Can delete Transaction Items"
+msgstr"يمكن حذف عل منتجات عملية الدفع " 
+
+msgid "payment"
+msgstr "الدفع" 
+
+msgid "payment transaction"
+msgstr "عملية الدفع" 
+
+msgid"Can view payment transaction"
+msgstr"يمكن اﻻطلاع على معاملة الدفع" 
+
+msgid"Can add payment transaction"
+msgstr"يمكن اضافة  معاملة الدفع" 
+
+msgid"Can change payment transaction"
+msgstr"يمكن تعديل  معاملة الدفع" 
+
+msgid"Can delete payment transaction"
+msgstr"يمكن حذف  معاملة الدفع" 
+
+msgid"Can view Payment"
+msgstr"يمكن اﻻطلاع على المدفوعات" 
+
+msgid"Can add Payment"
+msgstr"يمكن اضافة مدفوعات" 
+
+msgid"Can change Payment"
+msgstr"يمكن تعديل مدفوعات" 
+
+msgid"Can delete Payment"
+msgstr"يمكن حذف  مدفوعات" 
+
+msgid"Can view Supplier payment transaction"
+msgstr"يمكن اﻻطلاع على  مدفوعات المورد" 
+
+msgid"Can add Supplier payment transaction"
+msgstr"يمكن اضافة  مدفوعات المورد" 
+
+msgid"Can change Supplier payment transaction"
+msgstr"يمكن تعديل   مدفوعات المورد" 
+
+msgid"Can delete Supplier payment transaction"
+msgstr"يمكن حذف   مدفوعات المورد" 
+
+
+msgid"Can view Supplier"
+msgstr"يمكن اﻻطلاع على المورد" 
+
+msgid"Can add Supplier"
+msgstr"يمكن اضافة مورد" 
+
+msgid"Can change Supplier"
+msgstr"يمكن تعديل  مورد" 
+
+msgid"Can delete Supplier"
+msgstr"يمكن حذف  مورد" 
+
+
+msgid"Can view Executive"
+msgstr"يمكن اﻻطلاع على ممثل الشركة" 
+
+msgid"Can add Executive"
+msgstr"يمكن اضافة ممثل الشركة" 
+
+msgid"Can change Executive"
+msgstr"يمكن تعديل  ممثل الشركة" 
+
+msgid"Can delete Executive"
+msgstr"يمكن حذف  ممثل الشركة" 
+
+msgid"Can view Type"
+msgstr"يمكن اﻻطلاع على النوع" 
+
+msgid"Can add Type"
+msgstr"يمكن اضافة نوع" 
+
+msgid"Can change Type"
+msgstr"يمكن تعديل  النوع" 
+
+msgid"Can delete Type"
+msgstr"يمكن حذف  النوع" 
+
+msgid"manager"
+msgstr" مدير الشركة" 
+
+msgid"warehouse"
+msgstr"المخزن" 
+
+
+msgid"Can view manager"
+msgstr"يمكن اﻻطلاع على مدراء الشركة" 
+
+msgid"Can add manager"
+msgstr"يمكن اضافة مدراء الشركة" 
+
+msgid"Can change manager"
+msgstr"يمكن تعديل  مدراء الشركة" 
+
+msgid"Can delete manager"
+msgstr"يمكن حذف  مدراء الشركة" 
+
+msgid"Can view warehouse"
+msgstr"يمكن اﻻطلاع على المخزن" 
+
+msgid"Can add warehouse"
+msgstr"يمكن اضافة المخزن" 
+
+msgid"Can change warehouse"
+msgstr"يمكن تعديل  المخزن" 
+
+msgid"Can delete warehouse"
+msgstr"يمكن حذف  المخزن" 
+
+msgid"Can view payment transaction type"
+msgstr"يمكن اﻻطلاع على نوع عملية الدفع" 
+
+msgid"Can add payment transaction type"
+msgstr"يمكن اضافة نوع عملية الدفع" 
+
+msgid"Can change payment transaction type"
+msgstr"يمكن تعديل  نوع عملية الدفع" 
+
+msgid"Can delete payment transaction type"
+msgstr"يمكن حذف  نوع عملية الدفع" 
+
+msgid"auth"
+msgstr"التصريحات" 
+
+msgid"Password"
+msgstr"كلمة المرور" 
+
+msgid"Password confirmation:"
+msgstr"تأكيد كلمة المرور" 
+
+
+#: app_user/admin.py:32 app_user/models.py:115 area/models.py:11
+#: client/models.py:47 supplier/models.py:52 warehouse/models.py:14
+msgid "Area"
+msgstr "المنطقه"
+
+#: client/admin.py:269
+msgid "id of transaction"
+msgstr "رقم الحركة"

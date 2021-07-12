@@ -1,0 +1,11 @@
+{% extends 'admin/payment/clientpaymenttransaction/change_list.html' %}
+
+{% block export_daily_reports %} 
+<hr>
+  <p>  
+  <label> {{label}}:</label> 
+  <input  id='export_daily_report'  type='date' name='export_daily_report' >
+   <a   id='btn-export-reports' class='button btn-exprot-reports' href='export_daily_reports' > {{btn_label}} </a> </p>
+<hr>
+<hr>
+{% endblock export_daily_reports %}

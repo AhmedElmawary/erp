@@ -1,0 +1,73 @@
+{% extends 'admin/supplier/supplier/_custom_change_form.html' %} 
+
+
+{% block filter_transactions %}
+<hr>
+<br>
+<div class="form-row ">  <h4> {{filter_label}}  : </h4> <label> from: <input type=date id=transactions_from> </label> <label> to: <input type=date id=transactions_to /> </label>
+<br>
+ </div>
+
+<hr>
+<br>
+
+{% endblock filter_transactions %}
+
+{% block custom_change_form %}
+
+<div
+  class="js-inline-admin-formset inline-group"
+  id="orderitem_set-group"
+  data-inline-type="tabular"
+  data-inline-formset='{"name": "#orderitem_set", "options": {"prefix": "orderitem_set", "addText": "Add another Transaction Items", "deleteText": "Remove"}}'
+>
+  <div class="tabular inline-related last-related">
+    <input
+      type="hidden"
+      name="orderitem_set-TOTAL_FORMS"
+      value="0"
+      id="id_orderitem_set-TOTAL_FORMS"
+      autocomplete="off"
+    /><input
+      type="hidden"
+      name="orderitem_set-INITIAL_FORMS"
+      value="0"
+      id="id_orderitem_set-INITIAL_FORMS"
+    /><input
+      type="hidden"
+      name="orderitem_set-MIN_NUM_FORMS"
+      value="0"
+      id="id_orderitem_set-MIN_NUM_FORMS"
+      autocomplete="off"
+    /><input
+      type="hidden"
+      name="orderitem_set-MAX_NUM_FORMS"
+
+      value="0"
+      id="id_orderitem_set-MAX_NUM_FORMS"
+      autocomplete="off"
+    />
+    <fieldset class="module">
+      <h2>{{transactions_lable}}</h2>
+      <table>
+        <thead>
+          {% for field in fields %}
+            <th class="column-{{field}}">{{field}}</th>
+          {% endfor %}
+        
+        </thead>
+        <tbody>
+            {% for value in values %}
+          <tr id="orderitem_set-0">
+                {% for row in  value %}
+                    <td class="field-{{fields.row}}"><p>{{row}}</p></td>
+                {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </fieldset>
+  </div>
+</div>
+
+{% endblock custom_change_form %}

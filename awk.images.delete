@@ -1,0 +1,1 @@
+docker images ls | awk '/\d/ {print "docker rmi " $3}'

@@ -1,0 +1,83 @@
+{% extends 'admin/payment/clientpaymenttransaction/change_form.html' %}
+
+{% block print_transaction %} 
+<script>
+  function start_print() {
+    let print_transaction = document.getElementById('print_transaction')
+    if (print_transaction){ 
+      function js_print(event){
+        let url  = print_transaction.getAttribute('data-href');
+        console.log(url)
+        event.preventDefault();
+        window.open(url,'print',"toolbar=no,scrollbars=yes,resizable=0,top=100,left=100,width=595,height=842")
+      }
+      print_transaction.addEventListener('click', js_print)
+    }
+  }
+  window.addEventListener('load', start_print)
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+let client_cash = 0
+  $(document).ready(function(){
+  let select_element = $( ".select2-selection--single" )
+  let amount_div = $('#id_amount')
+  let client_cash_element = $('.field-client_cash_html').first()
+  let cash_after_transaction = $('.field-client_cash_after_transaction div div')
+
+
+
+  function dynamic_change_cash(client_cash, amount, value_payment_type) {
+    if (Number(value_payment_type) === 1) {
+      cash_after_transaction.text(Number(amount) + Number(client_cash))
+    } else {
+      cash_after_transaction.text(Number(client_cash) - Number(amount))
+    }
+  }
+
+select_element.last().focusin(function() {
+  let select_client = select_element.last().text()
+  let client_cash_url = window.location.href.replace('/add/','/client/'+ encodeURIComponent(select_client))
+
+
+  $.ajax({
+    method: 'GET',
+    url: client_cash_url,
+    dataType:'json',
+  }).done(function(data) {
+    client_cash = data['cash']
+    console.log(client_cash)
+    $('.field-client_cash_html div div').text(client_cash)
+  });
+
+})
+
+  amount_div.bind('keyup mouseup',function() {
+    let amount = $(this).val()
+    let value_payment_type = $('#id_payment_type').val()
+    dynamic_change_cash(client_cash, amount, value_payment_type)
+  })                          
+});
+
+</script>
+
+<script>
+  $(document).ready(function(){
+    let client_field = $( ".select2-selection--single" )
+    let client_cash_element = $('.field-client_cash_html div div.readonly')
+    let amount = $('#id_amount')
+    let cash_after_transaction = $('.field-client_cash_after_transaction div div.readonly')
+    let select_options = $(".select2-results__option")
+    let selected_option = $(".select2-results__option--highlighted")
+    function dynamic_sum_cash_and_after_cash(client_cash, amount_value) {
+      cash_after_transaction.text(Number(client_cash) + Number(amount_value))
+    }
+    client_field.bind('blur keyup',function(){
+      dynamic_sum_cash_and_after_cash(client_cash_element.text(), amount.val()); 
+    });
+  });
+
+</script>
+
+{% endblock print_transaction %}

@@ -1,0 +1,74 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{title}}</title>
+</head>
+<body>
+<pdf:language name="arabic"/>
+    <table>
+        <thead>
+            <tr>
+            {% for col  in  cols %}
+                <th class='cols'>{{col}}</th>
+            {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            {% for value in values %}
+                <td>{{value}}</td>
+                {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+</body>
+<style type='text/css'>
+@page{
+    padding: 15px;
+    size: A3;
+}
+
+ @font-face {
+        font-family: "arabic";
+        src: url("payment/static/fonts/arabic/3.ttf");
+        font-weight: bold;
+        font-style: italic, oblique;
+    }
+        *, html {
+            font-family:"arabic";
+        }
+table{
+    border: 1px solid black;
+    padding: 5px;
+    text-align:center;
+    float: right;
+    direction: rtl;
+}
+th {
+    font-size: 16px;
+}
+td {
+    font-size: 15px;
+}.cols{
+    background-color: rgb(168, 125, 68);
+    color: snow;
+}th:nth-of-type(3){
+    background-color:rebeccapurple;
+    color: red;
+}th:nth-last-of-type(4){
+    background-color:rebeccapurple;
+    color: red;
+}th:nth-last-child(){
+    background-color:rebeccapurple;
+    color: red;
+}
+
+</style>
+</html>

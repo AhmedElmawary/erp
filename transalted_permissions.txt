@@ -1,0 +1,585 @@
+    admin | log entry | Can add log entry
+    
+    المشرف | دخول السجل | يمكن إضافة إدخال السجل
+
+    admin | log entry | Can change log entry
+    
+    المشرف | دخول السجل | يمكن تغيير إدخال السجل
+    
+    
+    admin | log entry | Can view log entry
+
+المشرف | دخول السجل | يمكن حذف إدخال السجل
+
+    app_user | Closing Period | Can add Closing Period
+   
+   | فترة الإغلاق | يمكن إضافة فترة الإغلاق
+    
+
+    app_user | Closing Period | Can delete Closing Period
+
+| فترة الإغلاق | يمكن تغيير فترة الإغلاق
+
+    app_user | Closing Period | Can view Closing Period
+
+    | فترة الإغلاق | يمكن عرض فترة الإغلاق
+
+    app_user | Department | Can add Department
+
+    | القسم | يمكن اضافة قسم
+
+    app_user | Department | Can change Department
+
+     | القسم | يمكن تغيير القسم
+
+    app_user | Department | Can delete Department
+
+      القسم | يمكن حذف القسم
+
+    app_user | Department | Can view Department
+
+    القسم | يمكن عرض القسم
+
+    app_user | Job | Can add Job
+
+    الوظيفة | يمكن إضافة الوظيفة
+
+    app_user | Job | Can change Job
+
+     الوظيفة | يمكن تغيير الوظيفة
+     
+    app_user | Job | Can delete Job
+
+     | الوظيفة | يمكن حذف الوظيفة
+
+    app_user | Job | Can view Job
+
+     | الوظيفة | يمكن عرض الوظيفة
+
+    app_user | User | Can add User
+
+      | المستخدم | يمكن إضافة المستخدم
+
+    app_user | User | Can change User
+
+     | المستخدم | يمكن تغيير المستخدم
+
+    app_user | User | Can delete User
+
+     المستخدم | يمكن حذف المستخدم
+
+    app_user | User | Can view User
+
+     المستخدم | يمكن عرض المستخدم
+
+    area | Area | Can add Area
+
+    المنطقة | يمكن أن تضيف المنطقة
+
+    area | Area | Can change Area
+
+     المنطقة | يمكن تغيير المنطقة
+
+    area | Area | Can delete Area
+
+    المنطقة | يمكن حذف المنطقة
+
+    area | Area | Can view Area
+
+    المنطقة | يمكن عرض المنطقة
+
+    auth | group | Can add group
+
+    المجموعة | يمكن أن تضيف المجموعة
+
+    auth | group | Can change group
+
+    المجموعة | يمكن تغيير المجموعة
+
+    auth | group | Can delete group
+
+    المجموعة | يمكن حذف المجموعة
+
+    auth | group | Can view group
+
+    المجموعة | يمكن عرض المجموعة
+
+    auth | permission | Can add permission
+
+     إذن | يمكن إضافة الإذن
+
+    auth | permission | Can change permission
+
+    إذن | يمكن تغيير الإذن
+
+    auth | permission | Can delete permission
+
+    إذن | يمكن حذف الإذن
+
+    auth | permission | Can view permission
+
+    إذن | يمكن عرض الإذن
+
+    authtoken | Token | Can add Token
+
+    | رمز | يمكن إضافة رمز
+
+    authtoken | Token | Can change Token
+
+     رمز | يمكن تغيير الرمز
+
+    authtoken | Token | Can delete Token
+
+     رمز | يمكن حذف الرمز
+
+    authtoken | Token | Can view Token
+
+    رمز | يمكنه عرض الرمز المميز
+
+    authtoken | token | Can add token
+
+    رمز | يمكن أن تضيف رمزية
+
+    authtoken | token | Can change token
+
+    رمز | يمكن تغيير الرمز المميز
+
+    authtoken | token | Can delete token
+
+    رمز | يمكن حذف الرمز المميز
+
+    authtoken | token | Can view token
+
+    رمز | يمكن عرض الرمز المميز
+
+    client | Client | Can add Client
+
+    العميل | يمكن إضافة العميل
+
+    client | Client | Can change Client
+
+    العميل | يمكن تغيير العميل
+
+    client | Client | Can delete Client
+
+     العميل | يمكن حذف العميل
+
+    client | Client | Can view Client
+
+    العميل | يمكن عرض العميل
+
+    contenttypes | content type | Can add content type
+
+    نوع المحتوى | يمكن إضافة نوع المحتوى
+
+    contenttypes | content type | Can change content type
+
+     نوع المحتوى | يمكن تغيير نوع المحتوى
+
+    contenttypes | content type | Can delete content type
+
+    نوع المحتوى | يمكن حذف نوع المحتوى
+
+    contenttypes | content type | Can view content type
+
+    نوع المحتوى | يمكن عرض نوع المحتوى
+
+    item | Category | Can add Category
+
+    الفئة | يمكن إضافة فئة
+
+    item | Category | Can change Category
+
+    الفئة | يمكن تغيير الفئة
+
+    item | Category | Can delete Category
+
+    الفئة | يمكن حذف الفئة
+
+    item | Category | Can view Category
+
+    الفئة | يمكن عرض الفئة
+
+    item | CTX | Can add CTX
+
+    CTX | يمكن أن تضيف CTX
+
+    item | CTX | Can change CTX
+
+    CTX | يمكن تغيير CTX
+
+    item | CTX | Can delete CTX
+
+    CTX | يمكن حذف CTX
+
+    item | CTX | Can view CTX
+
+    العنصر | CTX | يمكن عرض CTX
+
+    item | Discount | Can add Discount
+
+    خصم | يمكن إضافة الخصم
+
+    item | Discount | Can change Discount
+
+    خصم | يمكن تغيير الخصم
+
+    item | Discount | Can delete Discount
+
+    خصم | يمكن حذف الخصم
+
+    item | Discount | Can view Discount
+
+    خصم | يمكن عرض الخصم
+
+    item | Item | Can add Item
+
+    العنصر | يمكن إضافة عنصر
+
+    item | Item | Can change Item
+
+    العنصر | يمكن تغيير العنصر
+
+    item | item  can delete item
+
+    العنصر | يمكن حذف العنصر
+
+    item | Item | Can view Item
+
+    العنصر | يمكن عرض العنصر
+
+    item | item file | Can add item file
+
+    ملف العنصر | يمكن إضافة ملف البند
+
+    item | item file | Can change item file
+
+    ملف العنصر | يمكن تغيير ملف العنصر
+
+    item | item file | Can delete item file
+
+    ملف العنصر | يمكن حذف ملف العنصر
+
+    item | item file | Can view item file
+
+    ملف العنصر | يمكن عرض ملف العنصر
+
+    item | Option | Can add Option
+
+    خيار | يمكن أن تضيف الخيار
+
+    item | Option | Can change Option
+
+    خيار | يمكن تغيير الخيار
+
+    item | Option | Can delete Option
+
+    | خيار | يمكن حذف الخيار
+
+    item | Option | Can view Option
+
+    خيار | يمكن عرض الخيار
+
+    item | status | Can add status
+
+    الحالة | يمكن أن تضيف الحالة
+
+    item | status | Can change status
+
+    الحالة | يمكن تغيير الحالة
+
+    item | status | Can delete status
+
+    الحالة | يمكن حذف الحالة
+
+    item | status | Can view status
+
+    الحالة | يمكن عرض الحالة
+
+    item | supplier item | Can add supplier item
+
+    عنصر المورد | يمكن إضافة عنصر المورد
+
+    item | supplier item | Can change supplier item
+
+    عنصر المورد | يمكن تغيير عنصر المورد
+
+    item | supplier item | Can delete supplier item
+
+    عنصر المورد | يمكن حذف عنصر المورد
+
+    item | supplier item | Can view supplier item
+
+    عنصر المورد | يمكن عرض عنصر المورد
+
+    item | Variation | Can add Variation
+
+    الاختلاف | يمكن أن تضيف الاختلاف
+
+    item | Variation | Can change Variation
+
+    الاختلاف | يمكن تغيير الاختلاف
+
+    item | Variation | Can delete Variation
+
+    الاختلاف | يمكن حذف الاختلاف
+
+    item | Variation | Can view Variation
+
+    الاختلاف | يمكن عرض الاختلاف
+
+    item | vat | Can add vat
+
+    ضريبة القيمة المضافة | يمكن إضافة ضريبة القيمة المضافة
+
+    item | vat | Can change vat
+
+    ضريبة القيمة المضافة | يمكن تغيير ضريبة القيمة المضافة
+
+    item | vat | Can delete vat
+
+    ضريبة القيمة المضافة | يمكن حذف ضريبة القيمة المضافة
+
+    item | vat | Can view vat
+
+    ضريبة القيمة المضافة | يمكن عرض ضريبة القيمة المضافة
+
+    payment | Client payment transaction | Can add Client payment transaction
+
+     معاملة دفع العميل | يمكن إضافة معاملة دفع العميل
+
+    payment | Client payment transaction | Can change Client payment transaction
+
+    معاملة دفع العميل | يمكن تغيير معاملة دفع العميل
+
+    payment | Client payment transaction | Can delete Client payment transaction
+
+    معاملة دفع العميل | يمكن حذف معاملة دفع العميل
+
+    payment | Client payment transaction | Can view Client payment transaction
+
+    معاملة دفع العميل | يمكن عرض معاملة دفع العميل
+
+    payment | Transaction Items | Can add Transaction Items
+
+    | بنود المعاملات | يمكن إضافة عناصر المعاملات
+
+    payment | Transaction Items | Can change Transaction Items
+
+    بنود المعاملات | يمكن تغيير عناصر المعاملات
+
+    payment | Transaction Items | Can delete Transaction Items
+
+    بنود المعاملات | يمكن حذف عناصر المعاملات
+
+    payment | Transaction Items | Can view Transaction Items
+
+     بنود المعاملات | يمكن عرض عناصر المعاملات
+
+    payment | Payment | Can add Payment
+
+    الدفع | يمكن أن تضيف الدفع
+
+    payment | Payment | Can change Payment
+
+    الدفع | يمكن تغيير الدفع
+
+    payment | Payment | Can delete Payment
+
+    الدفع | يمكن حذف الدفع
+
+    payment | Payment | Can view Payment
+
+    الدفع | يمكن عرض الدفع
+
+    payment | payment transaction | Can add payment transaction
+
+    معاملة الدفع | يمكن إضافة معاملة الدفع
+
+    payment | payment transaction | Can change payment transaction
+
+    معاملة الدفع | يمكن تغيير معاملة الدفع
+
+    payment | payment transaction | Can delete payment transaction
+
+    معاملة الدفع | يمكن حذف معاملة الدفع
+
+    payment | payment transaction | Can view payment transaction
+
+    معاملة الدفع | يمكن عرض معاملة الدفع
+
+    payment | payment transaction type | Can add payment transaction type
+
+    نوع معاملة الدفع | يمكن إضافة نوع معاملة الدفع
+
+    payment | payment transaction type | Can change payment transaction type
+
+    نوع معاملة الدفع | يمكن تغيير نوع معاملة الدفع
+
+    payment | Payment transaction type Can delete Payment transaction type
+
+    يمكن أن يحذف نوع معاملة الدفع نوع معاملة الدفع
+
+    payment | payment transaction type | Can view payment transaction type
+
+     نوع معاملة الدفع | يمكن عرض نوع معاملة الدفع
+
+    payment | Supplier payment transaction | Can add Supplier payment transaction
+
+    معاملة دفع المورد | يمكن إضافة معاملة دفع المورد
+
+    payment | Supplier payment transaction | Can change Supplier payment transaction
+
+    معاملة دفع المورد | يمكن تغيير معاملة دفع المورد
+
+    payment | Supplier payment transaction | Can delete Supplier payment transaction
+
+    معاملة دفع المورد | يمكن حذف معاملة دفع المورد
+
+    payment | Supplier payment transaction | Can view Supplier payment transaction
+
+    معاملة دفع المورد | يمكن عرض معاملة دفع المورد
+
+    sessions | session | Can add session
+
+    جلسة | يمكن أن تضيف جلسة
+
+    sessions | session | Can change session
+
+    جلسة | يمكن تغيير الجلسة
+
+    sessions | session | Can delete session
+
+    جلسة | يمكن حذف الجلسة
+
+    sessions | session | Can view session
+
+    جلسة | يمكن عرض الجلسة
+
+    status | Option | Can add Option
+
+    خيار | يمكن أن تضيف الخيار
+
+    status | Option | Can change Option
+
+    خيار | يمكن تغيير الخيار
+
+    status | Option | Can delete Option
+
+    خيار | يمكن حذف الخيار
+
+    status | Option | Can view Option
+
+    خيار | يمكن عرض الخيار
+
+    status | Status | Can add Status
+
+    الحالة | يمكن أن تضيف الحالة
+
+    status | Status | Can change Status
+
+    الحالة | يمكن تغيير الحالة
+
+    status | Status | Can delete Status
+
+    الحالة | يمكن حذف الحالة
+
+    status | Status | Can view Status
+
+    الحالة | يمكن عرض الحالة
+
+    status |Type  Can add Type
+
+    اكتب يمكن إضافة النوع
+
+    status | Type | Can change Type
+
+     اكتب | يمكن تغيير النوع
+
+    status | Type | Can delete Type
+
+     اكتب | يمكن حذف النوع
+
+    status | Type | Can view Type
+
+     | اكتب | يمكن عرض النوع
+
+    status | Variation | Can add Variation
+
+     الاختلاف | يمكن أن تضيف الاختلاف
+
+    status | Variation | Can change Variation
+
+     الاختلاف | يمكن تغيير الاختلاف
+
+    status | Variation | Can delete Variation
+
+    الاختلاف | يمكن حذف الاختلاف
+
+    status | Variation | Can view Variation
+
+    الاختلاف | يمكن عرض الاختلاف
+
+    supplier | Executive | Can add Executive
+
+    تنفيذي | يمكن أن تضيف التنفيذي
+
+    supplier | Executive | Can change Executive
+
+     تنفيذي | يمكن تغيير المدير التنفيذي
+
+    supplier | Executive | Can delete Executive
+
+    تنفيذي | يمكن حذف التنفيذي
+
+    supplier | Executive | Can view Executive
+
+    تنفيذي | يمكن عرض التنفيذي
+
+    supplier | Supplier | Can add Supplier
+
+    المورد | يمكن إضافة المورد
+
+    supplier | Supplier | Can change Supplier
+
+    المورد | يمكن تغيير المورد
+
+    supplier | Supplier | Can delete Supplier
+
+    المورد | يمكن حذف المورد
+
+    supplier | Supplier | Can view Supplier
+
+     المورد | يمكن عرض المورد
+
+    warehouse | manager | Can add manager
+
+     مدير | يمكن إضافة مدير
+
+    warehouse | manager | Can change manager
+
+     مدير | يمكن تغيير المدير
+
+    warehouse | manager | Can delete manager
+
+     مدير | يمكن حذف المدير
+
+    warehouse | manager | Can view manager
+
+    مدير | يمكن عرض المدير
+
+    warehouse | warehouse | Can add warehouse
+
+     مستودع | يمكن إضافة مستودع
+
+    warehouse | warehouse | Can change warehouse
+
+     مستودع | يمكن تغيير المستودع
+
+    warehouse | warehouse | Can delete warehouse
+
+     | مستودع | يمكن حذف المستودع
+
+    warehouse | warehouse | Can view warehouse
+
+    مستودع | يمكن عرض المستودع

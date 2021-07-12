@@ -1,0 +1,59 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titile}}</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+</head>
+<pdf:language name="arabic"/>
+<body>
+    <table>
+        <thead>
+            <tr>
+                {% for field in fields %}
+                <th class="column-{{field}}">{{field}}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            {% for value in values %}
+                <td class="field-{{fields.row}}"><p>{{value}}</p></td>
+            {% endfor %}
+            </tr>
+        </tbody>
+      </table>
+  <div class=text-center>
+      <button class="btn btn-primary d-print-none" onClick="window.print();window.close();">{{print}}</button>
+      <button class="btn btn-danger d-print-none" onClick="window.close();">{{cancel}}</button>
+  </div>
+
+      </body>
+      <style type='text/css'>
+ @font-face {
+        font-family: "arabic";
+        src: url("supplier/static/fonts/arabic/3.ttf");
+        font-weight: bold;
+        font-style: italic, oblique;
+    }
+        *, html {
+            font-family:"arabic";
+        }
+          table {
+              border: 2px solid black;
+              text-align: center;
+              padding: 5px;
+          }
+          th {
+              width: 180px;
+              height: 50px;
+          } td {
+              padding: 5px;
+          }
+      </style>
+</html>

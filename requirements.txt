@@ -1,0 +1,12 @@
+Django>=3.2, <=3.2
+Pillow>=8.2.0,<9
+djangorestframework>=3.12.4,<3.13
+psycopg2>=2.8.6,<3.0
+django-modeladmin-reorder >= 0.3.1, < 1.0
+XlsxWriter==1.4.3
+xhtml2pdf>=0.2.5, < 1.0
+# django-weasyprint  >= 1.1.0, <2.0
+weasyprint >=52.5, < 53.0
+django-modeltranslation  >=0.17.2, < 1.0.0
+num2words @ file:///app/libreries/num2words
+https://github.com/Barukimang/django-jet/archive/dev.zip

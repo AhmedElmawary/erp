@@ -1,0 +1,38 @@
+{% extends "admin/client/client/change_list.html" %}
+{% load i18n admin_urls %}
+
+{% block account_stament %}
+
+{% comment %} <p class="account_stament">
+    <label for="" class ='account_stament_label'>
+        {{account_stament_label}}:
+    </label>    
+            <label for=""> {{from}}
+                 <input type="date" name="account_statment_from" id="account_statment_from">
+            </label>
+            <label for=""> 
+                {{to}}
+                  <input type="date" name="account_statment_to" id="account_statment_to">
+            </label>
+            <label for="">
+                <input  value="{{export}}" class="btn-statment" id='account_statment_btn' type="button" for=""> 
+            </label>
+</p>
+<style>
+    .btn-statment{
+        background-color: cadetblue;
+        color: cornsilk;
+        border-radius: 10%;
+        /* transform: translateZ(100px); */
+        border: darkgray solid 1px;
+        font-size: 15px;
+        height: 35px;
+    }.account_stament_label{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+</style> {% endcomment %}
+
+{% endblock account_stament %}
+

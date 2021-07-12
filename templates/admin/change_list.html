@@ -1,0 +1,15 @@
+{% extends "admin/change_list.html" %}
+
+{% block breadcrumbs %}
+{% load i18n %}
+
+    <div class="breadcrumbs">
+    <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+    {% if title %} &rsaquo; {{ title }}{% endif %}
+    </div>
+
+{% endblock breadcrumbs %}
+
+{% block nav-sidebar %} 
+
+{% endblock nav-sidebar %}

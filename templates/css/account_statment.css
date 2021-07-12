@@ -1,0 +1,55 @@
+
+.main-div{
+    padding:30px 50px
+}
+.main-div .header-area {
+    border: 1px solid #ddd;
+padding: 0 15px;
+}
+
+.main-div .header-area h6{
+    padding-top:30px
+}
+.main-div .header-area h6,
+.main-div .header-area span {
+  font-weight: 700;
+}
+.table-header,
+.table-footer{
+    padding:0 20px
+}
+.table-header {
+    background-color:#eee
+}
+.main-div .table-section table{
+  margin-bottom: 0 !important;
+  }
+  .main-div .table-section table tr{
+  margin:10px 0
+  }
+.border-top{
+    border-top: 2px solid #c1bebe !important;
+}
+.border-bottom{
+    border-bottom: 2px solid #c1bebe !important;
+}
+.logo-img{
+    width:70px;
+    height: 70px;
+}
+.signature_section{
+  text-align: center;
+  padding:20px 0;
+}
+.signature_section .signature_box{
+    height: 200px;
+    padding-top:30px;
+    background-color:#eee;
+    border:1px solid #ddd
+}
+.des{
+    width:20%
+}
+tr:last-child {
+  border-bottom: transparent;
+}

@@ -1,0 +1,87 @@
+{% extends 'admin/supplier/supplier/_custom_change_form.html' %} 
+
+{% block filter_transactions %}
+<hr> <br> 
+<div class="form-row ">
+  <h4> {{filter_label}} : </h4>
+   <ul>
+    <li class="form-row ">{{from}}</li>
+    <li class="form-row ">{{to}}</li>
+    </ul>
+  </div>
+<hr>
+<br>
+{% endblock filter_transactions %}
+
+{% block custom_change_form %}
+
+<div class="js-inline-admin-formset inline-group"
+  id="orderitem_set-group"
+  data-inline-type="tabular"
+  data-inline-formset='{"name": "#orderitem_set", "options": {"prefix": "orderitem_set", "addText": "Add another Transaction Items", "deleteText": "Remove"}}'
+>
+  <div class="tabular inline-related last-related">
+    <fieldset class="module">
+      <h2>{{transactions_lable}}</h2>
+  <table>
+  <thead>
+  <tr>
+    {% for tr in trs %}
+    <th>{{tr}}</th>
+    {% endfor %}
+  </tr>  
+  </thead>
+  <tbody>
+    {% for transaction in  page_obj  %}
+    <tr>
+      {% for val in  transaction %}
+      <td> {{val}} </td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</fieldset>
+
+<div class="pagination">
+    <span class="this-page">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; {{first}}</a>
+            <a href="?page={{ page_obj.previous_page_number }}">{{previous}}</a>
+        {% endif %}
+
+        <span class="current">
+            {{page}} {{ page_obj.number }} {{of}} {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">{{next}}</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">{{last}} &raquo;</a>
+        {% endif %}
+
+    </span>
+</div>
+
+<script>
+  let  btn = document.getElementById('period_close')
+  let url = window.location.href + 'period_close'
+
+
+    // window.open(url,"print","toolbar=no,scrollbars=yes,resizable=0,top=100,left=100,width=595,height=842")
+  
+  
+  
+  </script>
+
+<style>
+th{
+  font-size:20px;
+  text-align:center;
+  
+}td {
+  font-size:16px;
+  text-align:center;
+  border:2px solid #e8e8e8 ; 
+}
+</style>
+{% endblock custom_change_form %}

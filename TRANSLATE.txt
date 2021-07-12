@@ -1,0 +1,148 @@
+    admin | log entry | Can add log entry
+    admin | log entry | Can change log entry
+    admin | log entry | Can delete log entry
+    admin | log entry | Can view log entry
+    app_user | Closing Period | Can add Closing Period
+    app_user | Closing Period | Can change Closing Period
+    app_user | Closing Period | Can delete Closing Period
+    app_user | Closing Period | Can view Closing Period
+    app_user | Department | Can add Department
+    app_user | Department | Can change Department
+    app_user | Department | Can delete Department
+    app_user | Department | Can view Department
+    app_user | Job | Can add Job
+    app_user | Job | Can change Job
+    app_user | Job | Can delete Job
+    app_user | Job | Can view Job
+    app_user | User | Can add User
+    app_user | User | Can change User
+    app_user | User | Can delete User
+    app_user | User | Can view User
+    area | Area | Can add Area
+    area | Area | Can change Area
+    area | Area | Can delete Area
+    area | Area | Can view Area
+    auth | group | Can add group
+    auth | group | Can change group
+    auth | group | Can delete group
+    auth | group | Can view group
+    auth | permission | Can add permission
+    auth | permission | Can change permission
+    auth | permission | Can delete permission
+    auth | permission | Can view permission
+    authtoken | Token | Can add Token
+    authtoken | Token | Can change Token
+    authtoken | Token | Can delete Token
+    authtoken | Token | Can view Token
+    authtoken | token | Can add token
+    authtoken | token | Can change token
+    authtoken | token | Can delete token
+    authtoken | token | Can view token
+    client | Client | Can add Client
+    client | Client | Can change Client
+    client | Client | Can delete Client
+    client | Client | Can view Client
+    contenttypes | content type | Can add content type
+    contenttypes | content type | Can change content type
+    contenttypes | content type | Can delete content type
+    contenttypes | content type | Can view content type
+    item | Category | Can add Category
+    item | Category | Can change Category
+    item | Category | Can delete Category
+    item | Category | Can view Category
+    item | CTX | Can add CTX
+    item | CTX | Can change CTX
+    item | CTX | Can delete CTX
+    item | CTX | Can view CTX
+    item | Discount | Can add Discount
+    item | Discount | Can change Discount
+    item | Discount | Can delete Discount
+    item | Discount | Can view Discount
+    item | Item | Can add Item
+    item | Item | Can change Item
+    item | Item | Can delete Item
+    item | Item | Can view Item
+    item | item file | Can add item file
+    item | item file | Can change item file
+    item | item file | Can delete item file
+    item | item file | Can view item file
+    item | Option | Can add Option
+    item | Option | Can change Option
+    item | Option | Can delete Option
+    item | Option | Can view Option
+    item | status | Can add status
+    item | status | Can change status
+    item | status | Can delete status
+    item | status | Can view status
+    item | supplier item | Can add supplier item
+    item | supplier item | Can change supplier item
+    item | supplier item | Can delete supplier item
+    item | supplier item | Can view supplier item
+    item | Variation | Can add Variation
+    item | Variation | Can change Variation
+    item | Variation | Can delete Variation
+    item | Variation | Can view Variation
+    item | vat | Can add vat
+    item | vat | Can change vat
+    item | vat | Can delete vat
+    item | vat | Can view vat
+    payment | Client payment transaction | Can add Client payment transaction
+    payment | Client payment transaction | Can change Client payment transaction
+    payment | Client payment transaction | Can delete Client payment transaction
+    payment | Client payment transaction | Can view Client payment transaction
+    payment | Transaction Items | Can add Transaction Items
+    payment | Transaction Items | Can change Transaction Items
+    payment | Transaction Items | Can delete Transaction Items
+    payment | Transaction Items | Can view Transaction Items
+    payment | Payment | Can add Payment
+    payment | Payment | Can change Payment
+    payment | Payment | Can delete Payment
+    payment | Payment | Can view Payment
+    payment | payment transaction | Can add payment transaction
+    payment | payment transaction | Can change payment transaction
+    payment | payment transaction | Can delete payment transaction
+    payment | payment transaction | Can view payment transaction
+    payment | payment transaction type | Can add payment transaction type
+    payment | payment transaction type | Can change payment transaction type
+    payment | payment transaction type | Can delete payment transaction type
+    payment | payment transaction type | Can view payment transaction type
+    payment | Supplier payment transaction | Can add Supplier payment transaction
+    payment | Supplier payment transaction | Can change Supplier payment transaction
+    payment | Supplier payment transaction | Can delete Supplier payment transaction
+    payment | Supplier payment transaction | Can view Supplier payment transaction
+    sessions | session | Can add session
+    sessions | session | Can change session
+    sessions | session | Can delete session
+    sessions | session | Can view session
+    status | Option | Can add Option
+    status | Option | Can change Option
+    status | Option | Can delete Option
+    status | Option | Can view Option
+    status | Status | Can add Status
+    status | Status | Can change Status
+    status | Status | Can delete Status
+    status | Status | Can view Status
+    status | Type | Can add Type
+    status | Type | Can change Type
+    status | Type | Can delete Type
+    status | Type | Can view Type
+    status | Variation | Can add Variation
+    status | Variation | Can change Variation
+    status | Variation | Can delete Variation
+    status | Variation | Can view Variation
+    supplier | Executive | Can add Executive
+    supplier | Executive | Can change Executive
+    supplier | Executive | Can delete Executive
+    supplier | Executive | Can view Executive
+    supplier | Supplier | Can add Supplier
+    supplier | Supplier | Can change Supplier
+    supplier | Supplier | Can delete Supplier
+    supplier | Supplier | Can view Supplier
+    warehouse | manager | Can add manager
+    warehouse | manager | Can change manager
+    warehouse | manager | Can delete manager
+    warehouse | manager | Can view manager
+    warehouse | warehouse | Can add warehouse
+    warehouse | warehouse | Can change warehouse
+    warehouse | warehouse | Can delete warehouse
+    warehouse | warehouse | Can view warehouse
